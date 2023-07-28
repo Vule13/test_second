@@ -1,0 +1,126 @@
+
+.sidebar {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  @media (max-width: 1199px) {
+    min-width:235px;
+  }
+}
+.sidebar-box {
+  background-color: var(--bgbg-light);
+  border-radius: 5px;
+  padding: 20px 30px;
+  width: 100%;
+}
+.sidebar-box__title {
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.55;
+  letter-spacing: 0.44px;
+  color: var( --text-heading);
+}
+.sidebar-box__content {
+  position: relative;
+  line-height: 1.7;
+  letter-spacing: -0.3px;
+  align-items: center;
+}
+
+.sidebar-box__content i {
+  
+  position: absolute;
+  right: 20px;
+  top: 33%;
+  cursor: pointer;
+}
+.sidebar-box__content--gap {
+  gap: 15px;
+  padding-bottom: 20px;
+  &:nth-last-child(1){
+    padding-bottom: 0;
+  }
+}
+.sidebar-box__img {
+  @media (max-width:1199px){
+    width: 100%;
+  }
+}
+.sidebar-box__content--tags {
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.tags-item {
+  padding: 5px;
+  background-color: var(--action-blue);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.sidebar-box--bg {
+  padding: 0;
+  position: relative;
+  border-radius: 5px;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: var(--text-dark-alt, #321370);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+}
+.siderbar-subscribe {
+  position: absolute;
+  top: 37%;
+  // left: 50%;
+  // transform: translate(-50px,-50px);
+  // max-width: 170px;
+  width: 100%;
+  text-align: center;
+}
+.siderbar-subscribe__title {
+  padding-bottom: 40px;
+  font-size: 22px;
+  font-family: outfit;
+  color: #fff;
+  line-height: 1.45;
+}
+.header-content__right {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.7;
+  letter-spacing: 0.4px;
+  font-family: outfit;
+}
+.pagination {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 46px;
+}
+
+.subcribe-bg {
+  background-size: 100% 100%;
+  background-image: url("/images/BG footer.png");
+}
+.subcribe {
+  text-align: center;
+  width: 100%;
+  max-width: 870px;
+  margin: 0 auto
+}
+.subcribe__title {
+  line-height: 1.16;
+  letter-spacing: -2px;
+  padding: 15px 0;
+}
+.subcribe__content {
+  padding: 15px 0;
+}
+
+

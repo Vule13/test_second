@@ -1,0 +1,57 @@
+.button {
+  padding: 13px 24px;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: outfit;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.7;
+  font-weight: 500;
+  display: inline-block;
+  text-transform: uppercase;
+  @media (max-width: 991px)
+  {
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+.button--blue {
+  background-color: var(--action-blue);
+}
+.button--purple {
+  background-color: var(--action-purple);
+}
+.icon-btn {
+  transition: all 0.5s ease;
+}
+.subcrible__btn {
+  justify-content: center;
+  gap: 6px;
+  @media (max-width:768px) {
+    flex-direction: column;
+  }
+}
+@media (max-width: 991px){
+  .icon-btn {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    display: block;
+    left: 0;
+    top: -100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    z-index: -1;
+  }
+.icon-btn.show {
+    left: 0;
+    top: 40vh;
+    z-index: -1;
+}
+}

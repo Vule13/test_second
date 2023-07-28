@@ -1,0 +1,131 @@
+
+.page-header {
+  width: 100%;
+  padding: 20px 0;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  transition: 0.3s;
+  position: fixed;
+}
+.bag-icon {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    left: 60%;
+  }
+}
+@media (max-width: 991px){
+  .header-right.show {
+    flex-wrap: wrap;
+    
+  }
+  ul.show {
+      left: 0;
+      top: 60px;
+      z-index: -1;
+      
+  }
+  .btn.show {
+    left: 0;
+    
+      top: 450px;
+      z-index: -1;
+      .modal-overlay {
+        display: block;
+      }
+  }
+}
+.modal-overlay{
+  width: 100%;
+  height: 160vh;
+  transition: all 0.3s;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.header-right__list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:42px;
+  transition: all 0.5s ease;
+  @media (max-width: 991px) {
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    left: 0;
+    top: -100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    z-index: -1;
+  }
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  
+  gap: 50px;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+}
+.header {
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.menu__link--blog {
+  color: var(--text-heading);
+}
+.menu__link {
+  
+  &:hover {
+    color: var(--text-heading);
+  }
+}
+.menu__items--blog {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: var( --action-green);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 50%;
+    top: -20%;
+    transform: translate(-50%, -50%);
+  }
+}
+.header-taskbar {
+  display: none;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  @media (max-width: 991px) {
+    display: block;
+  }
+}
+.sticky {
+  background-color: #ffff;
+  padding: 10px 0;
+  box-shadow: 0px 5px 6px -6px #999999;
+}
+.icon-btn {
+  gap: 30px;
+  align-items: center;
+}
+.header-logo__icon {
+  gap: 10px;
+}
