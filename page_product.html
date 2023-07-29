@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./scss/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,600;0,900;1,100;1,200;1,300;1,600;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="font/fontawesome-free-6.2.0-web/css/all.min.css">
 </head>
@@ -44,7 +41,10 @@
                       <a href="#" class="menu__link">about</a>
                   </li>
                   <li class="header-right__items menu__items--blog">
-                      <a href="#" class="menu__link menu__link--blog">Blog</a>
+                    <a href="page_shop.html" class="menu__link menu__link--blog">Page</a>
+                </li>
+                  <li class="header-right__items ">
+                      <a href="page_blog.html" class="menu__link">Blog</a>
                   </li>
                   <li class="header-right__items">
                     <a href="#" class="menu__link">contact</a>
@@ -73,9 +73,9 @@
       <div class="container">
         <div class="banner-flex d-flex">
           <div class="banner-center">
-            <h1 class="banner-center__title">Our Latest News</h1>
+            <h1 class="banner-center__title">Our Shop</h1>
             <span class="banner-center__text-home">Homepage</span>
-            <span class="banner-center_text-blog">Blog</span>
+            <span class="banner-center_text-blog">Shop</span>
           </div>
         </div>
       </div>
@@ -84,173 +84,113 @@
   </section>
   <section class="page-section pt-100 pb-100">
     <div class="container">
-      <div class="blog d-flex">
-        <div class="blog-main">
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/Vietnam Fintech.png" alt="">
+      <div class="single-product d-flex">
+        <div class="product-left">
+          <img class="product-left__img" src="./images/product1.png" alt="anh san pham">
+          <div class="row">
+            <div class="col"style="--col-xs: 3; --col-sm: 3; --col-md: 3; --col-lg: 3;">
+              <img src="./images/1.png" alt="">
             </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
-                </div>
-                <div class="header-content__right">10 July, 2022</div>
-              </div>
-              <h2 class="blog-title">Vietnamese Fintech Startup Raises $25 M Series B Round From Ospace, Vietnam Investments Group</h2>
-              <div class="blog-content">Vietnamese fintech startup Finhay has raised a $25 million Series B round led by Singapore-based Openspace Ventures, an early backer of Indonesia's GoTo Group and 30 Under 30 Asia honoree Rexy Josh Dorado's Manila-based social media site Kumu, and private firm Vietnam Investments Group.</div>
-              <a href="page_blog_single.html" class=" button button--blue">Read More</a>
+            <div class="col"style="--col-xs: 3; --col-sm: 3; --col-md: 3; --col-lg: 3;">
+              <img src="./images/2.png" alt="">
+            </div>
+            <div class="col"style="--col-xs: 3; --col-sm: 3; --col-md: 3; --col-lg: 3;">
+              <img src="./images/3.png" alt="">
+            </div>
+            <div class="col"style="--col-xs: 3; --col-sm: 3; --col-md: 3; --col-lg: 3;">
+              
             </div>
           </div>
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/Tips.png" alt="">
-            </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
-                </div>
-                <div class="header-content__right">10 July, 2022</div>
-              </div>
-              <h2 class="blog-title">Tips To Know How Technology Can Help Bridge The Gap Between Infrastructure & Sustainability</h2>
-              <div class="blog-content">It’s no secret the need for sustainable and resilient infrastructure is becoming more urgent every year. In fact, industry experts predict that the world will have to invest $90 trillion in sustainable infrastruc-ture by 2030 to truly combat climate change. </div>
-              <a href="#" class="button button--blue">Read More</a>
-            </div>
+          
+          
+        </div>
+        <div class="product-right">
+          <h2 class="product-right__title">Samsung S22</h2>
+          <div class="product-right__content">From $299</div>
+          <div class="product-right__star pb-30">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </div>
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/how.png" alt="">
-            </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
-                </div>
-                <div class="header-content__right">10 July, 2022</div>
-              </div>
-              <h2 class="blog-title">How Coworking Companies Like The Wing And Industrious Are Intersecting With Retail</h2>
-              <div class="blog-content">
-                The lines between retail, office, and industrial real estate are becoming exponentially blurred. And the relationship between retail and coworking seems to be at the forefront of the change, with coworking companies leasing retail real estate and displaying retail products in their spaces.
-              </div>
-              <a href="#" class=" button button--blue">Read More</a>
-            </div>
+          <p class="product-right__text pt-15">Make everyday epic. Introducing Galaxy S22 and S22+ with Nightography camera, storage to hold all your night shots and a way beyond all-day battery.</p>
+          <p class="product-right__text pt-30 ">Buy your Samsung Galaxy S22 Phones today at the best price! <a class="text-color" href="">More info</a></p>
+          <p class="product-right__text-color">Colors</p>
+          <div class="product-circle d-flex">
+            <div class="product-circle__item"></div>
+            <div class="product-circle__item"></div>
+            <div class="product-circle__item"></div>
           </div>
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/5 more.png" alt="">
-            </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
-                </div>
-                <div class="header-content__right">10 July, 2022</div>
-              </div>
-              <h2 class="blog-title">5 More Questions To Ask During Your Project Kickoff Meeting</h2>
-              <div class="blog-content">
-                Project kickoff meetings can be a powerful tool for establishing a strong foundation for your project. Don’t make the mistake of sending a few emails in lieu of a formal kickoff meeting as the kickoff meeting provides a valuable opportunity to get everyone on the same page.
-              </div>
-              <a href="#" class=" button button--blue">Read More</a>
-            </div>
+          <div class="product-input">
+            <input class="product-input__number" type="number" name="quantity" placeholder="1" min="1" max="5">
+            <i class="fa-solid fa-angle-up fa-solid--top"></i>
+            <i class="fa-solid fa-angle-down fa-solid--bt"></i>
+            <a href="#" class=" button button--blue button-transform">Sign up</a>
           </div>
-          <div class="pagination d-flex">
-            <div class="pagination__item d-flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M8.75 3.5L5.25 7L8.75 10.5" stroke="#7B88A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-            <div class="pagination__item d-flex">1</div>
-            <div class="pagination__item d-flex">2</div>
-            <div class="pagination__item d-flex">3</div>
-            <div class="pagination__item d-flex">4</div>
-            <div class="pagination__item d-flex">...</div>
-            <div class="pagination__item d-flex">
-              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M5.25 10.5L8.75 7L5.25 3.5" stroke="#7B88A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-            </div>
-         
+          <div class="product-right__social ">
+            <i class="fa-solid fa-heart"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="product-right_tag d-flex">
+            <p class="product-right__SKU">SKU: 001</p>
+            <P class="product-right__catagory">Category: <span class="product-right__catagory--blue">Smartphone</span> </P>
+            <P class="product-right__catagory">Tags: <span class="product-right__catagory--blue">Electronics</span> </P>
+
           </div>
         </div>
-        <div class="sidebar">
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Search</div>
-            <div class="sidebar-box__content d-flex">
-              <input class="input input--search" type="text" placeholder="Enter email">
-              <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="product-tag pt-100 pb-30 d-flex">
+        <div class="product-tag__item menu__items--blog">Description</div>
+        <div class="product-tag__item">Aditional Information</div>
+        <div class="product-tag__item">Reviews</div>
+        <div class="product-tag__item">Shipping Rates</div>
+      </div>
+      <div class="product-content d-flex pt-30">
+        <p class="product-right__text pt-15">
+          It’s our brightest innovation yet. The sensor pulls in more light, the Super Clear Glass dials down lens flare, and fast-acting AI delivers near-instant intelligent processing.
+        </p>
+        <p class="product-right__text pt-15">
+          Sunlight, meet Galaxy S22's bright and Galaxy S22+'s brightest display*. The stunning Dynamic AMOLED 2X display is crafted specifically for high outdoor visibility, keeping the view clear in bright daylight.
+        </p>
+      </div>
+      <div class="product-box pt-100">
+        <h2 class="product-box__title">Here you can buy similar products</h2>
+        <div class="row ">
+          
+          <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;">
+            <div class="shop-product">
+              <img src="./images/s22.png" alt="" class="shop-product__img">
+              <p class="shop-product__title">S22 128GB</p>
+              <p class="shop-product__content">From $299</p>
             </div>
           </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Latest News</div>
-            <div class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news1.png" alt="news-img">
-              <p>Start Your First Week Of A New Job Like A Boss</p>
-            </div>
-            <div class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news2.png" alt="news-img">
-              <p>Pioneering A New Twist On Coworking Models</p>
-            </div>
-            <div class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news3.png" alt="news-img">
-              <p>The White-Label Software Model In Fintech</p>
+          <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;">
+            <div class="shop-product">
+              <img src="./images/product3.png" alt="" class="shop-product__img">
+              <p class="shop-product__title">S22 128GB</p>
+              <p class="shop-product__content">From $299</p>
             </div>
           </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Categories</div>
-            <div class="sidebar-box__content d-flex">
-              <select class="select" name="select" id="">
-                <option value="">select</option>
-                <option value="">option 2</option>
-                <option value="">option 3</option>
-              </select>
+          <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;">
+            <div class="shop-product">
+              <img src="./images/product4.png" alt="" class="shop-product__img">
+              <p class="shop-product__title">S22 128GB</p>
+              <p class="shop-product__content">From $299</p>
             </div>
           </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Tags</div>
-            <div class="sidebar-box__content sidebar-box__content--tags d-flex">
-              <div class="tags-item">api</div>
-              <div class="tags-item">apps</div>
-              <div class="tags-item">branding</div>
-              <div class="tags-item">design</div>
-              <div class="tags-item">development</div>
-              <div class="tags-item">develops</div>
-              <div class="tags-item">email</div>
-              <div class="tags-item">fintech</div>
-              <div class="tags-item">news</div>
-              <div class="tags-item">technology</div>
-              <div class="tags-item">shop</div>
-              <div class="tags-item">starup</div>
-              <div class="tags-item">wordpress</div>
+          <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 3;">
+            <div class="shop-product">
+              <img src="./images/s22utra.png" alt="" class="shop-product__img">
+              <p class="shop-product__title">S22 128GB</p>
+              <p class="shop-product__content">From $299</p>
             </div>
           </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Archive</div>
-            <div class="sidebar-box__content d-flex">
-              <select class="select" name="select" id="">
-                <option value="">select</option>
-                <option value="">option 2</option>
-                <option value="">option 3</option>
-              </select>
-            </div>
-          </div>
-          <div class="sidebar-box sidebar-box--bg">
-            <img class="sidebar-box__img" src="./images/BG.png" alt="background">
-            <div class="siderbar-subscribe">
-              <p class="siderbar-subscribe__title">Subscribe To Our Newsletter Today</p>
-              <a href="#" class=" button button--purple">Subcribe</a>
+          
+          
             </div>
           </div>
         </div>
@@ -261,15 +201,14 @@
     <div class="subcribe-bg pt-100 pb-100">
       <div class="container">
         <div class="subcribe">
-          <div class="subcribe__content">
-            Visit our blog! Follow the developments in the technology & entrepreneur world
-          </div>
           <h1 class="subcribe__title">
-            Subscribe to our newsletter <span class="text-green">free</span> and stay updated on the latest developments!
+            Get help, find answers, download drivers, manuals and much more
           </h1>
+          <p class="subcribe__content">
+            Contact us online through chat and get support from an expert
+          </p>
           <div class="subcrible__btn pt-70 d-flex">
-            <input class=" input subcribe__input" type="text" placeholder="Enter email">
-            <a href="#" class=" button button--blue button--blue-bt">Subcribe</a>
+            <a href="#" class=" button button--blue button--blue-bt">Chat Now</a>
           </div>
           
         </div>

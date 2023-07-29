@@ -124,3 +124,64 @@
 }
 
 
+.sidebar-shop__title {
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--lines-gray-line);
+  padding-bottom: 25px;
+}
+.sidebar-shop {
+  width: 100%;
+}
+.sidebar-shop__content {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.55; /* 155.556% */
+  letter-spacing: 0.4px;
+  color: var(--text-heading);
+  
+}
+
+.sidebar-checkbox  {
+  justify-content: space-between;
+  align-items: center;
+
+}
+.sidebar-checkbox--pb {
+  padding-bottom: 6px;
+}
+.sidebar-shop__item {
+  padding-top: 25px;
+}
+.sidebar-checkbox__content {
+  gap: 10px;
+  
+}
+.sidebar-checkbox__input {
+  background-color: var(--text-text-gray);
+  width: 15px;
+}
+.sidebar-checkbox__item {
+  letter-spacing: -0.3px;
+  color: var(--text-heading);
+  line-height: 1.7;
+}
+.sidebar-checkbox__content--pl {
+  padding-left: 25px;
+  padding-top: 20px;
+  &:nth-child(1) {
+    padding-top: 26px;
+  }
+}
+.sidebar-checkbox__item--color {
+  color: var(--text-text);
+}
+.sidebar-checkbox--text {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.sidebar-checkbox__item--text {
+  color: #4F77FF;
+  
+}

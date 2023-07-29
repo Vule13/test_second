@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./scss/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,600;0,900;1,100;1,200;1,300;1,600;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="font/fontawesome-free-6.2.0-web/css/all.min.css">
 </head>
@@ -44,7 +41,10 @@
                       <a href="#" class="menu__link">about</a>
                   </li>
                   <li class="header-right__items menu__items--blog">
-                      <a href="#" class="menu__link menu__link--blog">Blog</a>
+                    <a href="page_shop.html" class="menu__link menu__link--blog">Page</a>
+                </li>
+                  <li class="header-right__items ">
+                      <a href="page_blog.html" class="menu__link">Blog</a>
                   </li>
                   <li class="header-right__items">
                     <a href="#" class="menu__link">contact</a>
@@ -73,9 +73,9 @@
       <div class="container">
         <div class="banner-flex d-flex">
           <div class="banner-center">
-            <h1 class="banner-center__title">Our Latest News</h1>
+            <h1 class="banner-center__title">Our Shop</h1>
             <span class="banner-center__text-home">Homepage</span>
-            <span class="banner-center_text-blog">Blog</span>
+            <span class="banner-center_text-blog">Shop</span>
           </div>
         </div>
       </div>
@@ -85,88 +85,223 @@
   <section class="page-section pt-100 pb-100">
     <div class="container">
       <div class="blog d-flex">
-        <div class="blog-main">
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/Vietnam Fintech.png" alt="">
+        <div class="sidebar">
+          <div class="sidebar-shop pb-50">
+            <div class="sidebar-shop__title d-flex">
+              <p class="sidebar-shop__content">Category</p>
+              <i class="fa-solid fa-angle-up"></i>
             </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item">App</p>
                 </div>
-                <div class="header-content__right">10 July, 2022</div>
+                <i class="fa-solid fa-angle-down"></i>
               </div>
-              <h2 class="blog-title">Vietnamese Fintech Startup Raises $25 M Series B Round From Ospace, Vietnam Investments Group</h2>
-              <div class="blog-content">Vietnamese fintech startup Finhay has raised a $25 million Series B round led by Singapore-based Openspace Ventures, an early backer of Indonesia's GoTo Group and 30 Under 30 Asia honoree Rexy Josh Dorado's Manila-based social media site Kumu, and private firm Vietnam Investments Group.</div>
-              <a href="page_blog_single.html" class=" button button--blue">Read More</a>
+            </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item">Audio</p>
+                </div>
+                <i class="fa-solid fa-angle-down"></i>
+              </div>
+            </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox sidebar-checkbox--pb d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item">Electronics</p>
+                </div>
+                <i class="fa-solid fa-angle-up"></i>
+              </div>
+              <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
+                <input type="checkbox" class="sidebar-checkbox__input">
+                <p class=" sidebar-checkbox__item sidebar-checkbox__item--color">Accessories</p>
+              </div>
+              <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
+                <input type="checkbox" class="sidebar-checkbox__input">
+                <p class=" sidebar-checkbox__item sidebar-checkbox__item--color">Camera</p>
+              </div>
+              <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
+                <input type="checkbox" class="sidebar-checkbox__input">
+                <p class=" sidebar-checkbox__item sidebar-checkbox__item--color ">Computer</p>
+              </div>
+              <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
+                <input type="checkbox" class="sidebar-checkbox__input">
+                <p class=" sidebar-checkbox__item sidebar-checkbox__item--color ">Headphones</p>
+              </div>
+              <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
+                <input type="checkbox" class="sidebar-checkbox__input">
+                <p class=" sidebar-checkbox__item sidebar-checkbox__item--color ">Smartphone</p>
+              </div>
+              <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
+                <input type="checkbox" class="sidebar-checkbox__input">
+                <p class=" sidebar-checkbox__item sidebar-checkbox__item--color ">TV</p>
+              </div>
+              <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
+                <input type="checkbox" class="sidebar-checkbox__input">
+                <p class=" sidebar-checkbox__item sidebar-checkbox__item--color ">Video</p>
+              </div>
+            </div>  
+          </div>
+          <div class="sidebar-shop pb-50">
+            <div class="sidebar-shop__title d-flex">
+              <p class="sidebar-shop__content  ">Brand</p>
+              <i class="fa-solid fa-angle-up"></i>
+            </div>
+            
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item sidebar-checkbox__item--color">Apple</p>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item sidebar-checkbox__item--color">Bose</p>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item sidebar-checkbox__item--color">Dell</p>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item sidebar-checkbox__item--color">LG</p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item sidebar-checkbox__item--color">Samsung</p>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox d-flex">
+                <div class="sidebar-checkbox__content d-flex ">
+                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <p class="sidebar-checkbox__item sidebar-checkbox__item--color">Sony</p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/Tips.png" alt="">
+          <div class="sidebar-shop pb-50">
+            <div class="sidebar-shop__title d-flex">
+              <p class="sidebar-shop__content  ">Price</p>
+              <i class="fa-solid fa-angle-up"></i>
             </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
-                </div>
-                <div class="header-content__right">10 July, 2022</div>
+            <div class="sidebar-shop__item">
+              <div class="sidebar-checkbox__content d-flex ">
+                <input type="range" min="1" max="100" value="100 " class="slider">
+                <input type="range" min="1" max="100" value="100" class="slider">
+                
               </div>
-              <h2 class="blog-title">Tips To Know How Technology Can Help Bridge The Gap Between Infrastructure & Sustainability</h2>
-              <div class="blog-content">It’s no secret the need for sustainable and resilient infrastructure is becoming more urgent every year. In fact, industry experts predict that the world will have to invest $90 trillion in sustainable infrastruc-ture by 2030 to truly combat climate change. </div>
-              <a href="#" class="button button--blue">Read More</a>
+              <div class="sidebar-checkbox sidebar-checkbox--text d-flex">
+                <p class="sidebar-checkbox__item sidebar-checkbox__item--color">Price: $99 — $1999</p>
+                <p class="sidebar-checkbox__item sidebar-checkbox__item--text ">filter</p>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+        <div class="blog-main blog-main--style">
+          <div class="shop-box shop-box--style d-flex">
+            <p class="shop-box__title">Devices</p>
+            <select class="select select--width" name="select" id="">
+              <option value="">Shorting By</option>
+              <option value="">option 2</option>
+              <option value="">option 3</option>
+            </select>
+          </div>
+          <div class="row shop-box">
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <a href="page_product.html">
+                  <img src="./images/product1.png" alt="" class="shop-product__img">
+                </a>
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+                
+              </div>
+            </div>
+            
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product2.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
+            </div>
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product3.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
+            </div>
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product4.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
+            </div>
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product5.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
+            </div>
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product6.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
+            </div>
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product7.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
+            </div>
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product8.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
+            </div>
+            <div class="col " style="--col-xs: 12; --col-sm: 6; --col-md: 6; --col-lg: 4;">
+              <div class="shop-product">
+                <img src="./images/product9.png" alt="" class="shop-product__img">
+                <p class="shop-product__title">S22 128GB</p>
+                <p class="shop-product__content">From $299</p>
+              </div>
             </div>
           </div>
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/how.png" alt="">
-            </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
-                </div>
-                <div class="header-content__right">10 July, 2022</div>
-              </div>
-              <h2 class="blog-title">How Coworking Companies Like The Wing And Industrious Are Intersecting With Retail</h2>
-              <div class="blog-content">
-                The lines between retail, office, and industrial real estate are becoming exponentially blurred. And the relationship between retail and coworking seems to be at the forefront of the change, with coworking companies leasing retail real estate and displaying retail products in their spaces.
-              </div>
-              <a href="#" class=" button button--blue">Read More</a>
-            </div>
-          </div>
-          <div class="blog-box">
-            <div class="blog-box__img">
-              <img src="./images/5 more.png" alt="">
-            </div>
-            <div class="blog-box__content">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
-                  <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
-                    Written By Admin
-                  </div>
-                </div>
-                <div class="header-content__right">10 July, 2022</div>
-              </div>
-              <h2 class="blog-title">5 More Questions To Ask During Your Project Kickoff Meeting</h2>
-              <div class="blog-content">
-                Project kickoff meetings can be a powerful tool for establishing a strong foundation for your project. Don’t make the mistake of sending a few emails in lieu of a formal kickoff meeting as the kickoff meeting provides a valuable opportunity to get everyone on the same page.
-              </div>
-              <a href="#" class=" button button--blue">Read More</a>
-            </div>
-          </div>
-          <div class="pagination d-flex">
+          <div class="pagination pagination--style  d-flex">
             <div class="pagination__item d-flex">
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path d="M8.75 3.5L5.25 7L8.75 10.5" stroke="#7B88A8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -185,75 +320,7 @@
          
           </div>
         </div>
-        <div class="sidebar">
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Search</div>
-            <div class="sidebar-box__content d-flex">
-              <input class="input input--search" type="text" placeholder="Enter email">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-          </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Latest News</div>
-            <div class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news1.png" alt="news-img">
-              <p>Start Your First Week Of A New Job Like A Boss</p>
-            </div>
-            <div class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news2.png" alt="news-img">
-              <p>Pioneering A New Twist On Coworking Models</p>
-            </div>
-            <div class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news3.png" alt="news-img">
-              <p>The White-Label Software Model In Fintech</p>
-            </div>
-          </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Categories</div>
-            <div class="sidebar-box__content d-flex">
-              <select class="select" name="select" id="">
-                <option value="">select</option>
-                <option value="">option 2</option>
-                <option value="">option 3</option>
-              </select>
-            </div>
-          </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Tags</div>
-            <div class="sidebar-box__content sidebar-box__content--tags d-flex">
-              <div class="tags-item">api</div>
-              <div class="tags-item">apps</div>
-              <div class="tags-item">branding</div>
-              <div class="tags-item">design</div>
-              <div class="tags-item">development</div>
-              <div class="tags-item">develops</div>
-              <div class="tags-item">email</div>
-              <div class="tags-item">fintech</div>
-              <div class="tags-item">news</div>
-              <div class="tags-item">technology</div>
-              <div class="tags-item">shop</div>
-              <div class="tags-item">starup</div>
-              <div class="tags-item">wordpress</div>
-            </div>
-          </div>
-          <div class="sidebar-box">
-            <div class="sidebar-box__title">Archive</div>
-            <div class="sidebar-box__content d-flex">
-              <select class="select" name="select" id="">
-                <option value="">select</option>
-                <option value="">option 2</option>
-                <option value="">option 3</option>
-              </select>
-            </div>
-          </div>
-          <div class="sidebar-box sidebar-box--bg">
-            <img class="sidebar-box__img" src="./images/BG.png" alt="background">
-            <div class="siderbar-subscribe">
-              <p class="siderbar-subscribe__title">Subscribe To Our Newsletter Today</p>
-              <a href="#" class=" button button--purple">Subcribe</a>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -261,15 +328,14 @@
     <div class="subcribe-bg pt-100 pb-100">
       <div class="container">
         <div class="subcribe">
-          <div class="subcribe__content">
-            Visit our blog! Follow the developments in the technology & entrepreneur world
-          </div>
           <h1 class="subcribe__title">
-            Subscribe to our newsletter <span class="text-green">free</span> and stay updated on the latest developments!
+            Get help, find answers, download drivers, manuals and much more
           </h1>
+          <p class="subcribe__content">
+            Contact us online through chat and get support from an expert
+          </p>
           <div class="subcrible__btn pt-70 d-flex">
-            <input class=" input subcribe__input" type="text" placeholder="Enter email">
-            <a href="#" class=" button button--blue button--blue-bt">Subcribe</a>
+            <a href="#" class=" button button--blue button--blue-bt">Chat Now</a>
           </div>
           
         </div>
