@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./scss/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,600;0,900;1,100;1,200;1,300;1,600;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="font/fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <div class="header d-flex">
+          <div class="header-logo">
+              <a href="#" class="header-logo__icon d-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="44" viewBox="0 0 32 44" fill="none">
+                  <g clip-path="url(#clip0_301_6510)">
+                    <path d="M32 16C32 11.7565 30.3143 7.68687 27.3137 4.68629C24.3131 1.68571 20.2435 0 16 0C11.7565 0 7.68687 1.68571 4.68629 4.68629C1.68571 7.68687 0 11.7565 0 16C0 16.2133 3.91006e-07 16.4267 0.0170671 16.64V16H16.0171V32C20.2576 31.9955 24.3229 30.3078 27.3197 27.3077C30.3166 24.3076 32 20.2405 32 16Z" fill="#61DCDF"/>
+                    <path d="M0 17V44H16V32.3071H15.9872C11.8545 32.3071 7.88218 30.7135 4.90207 27.8602C1.92197 25.0069 0.165306 21.1151 0 17Z" fill="#886CFF"/>
+                    <path d="M0 16V16.64C0.165262 20.7693 1.92146 24.6746 4.90077 27.5378C7.88007 30.401 11.8514 32 15.9829 32H16V16H0Z" fill="#F9E492"/>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_301_6510">
+                      <rect width="32" height="44" fill="white"/>
+                    </clipPath>
+                  </defs>
+                </svg>
+                <h4>Pollock</h4>
+              </a>
+          </div>
+          <div class="header-right d-flex">
+              <ul class="header-right__list">
+                  <li class="header-right__items">
+                      <a href="#" class="menu__link active">Home</a>
+                  </li>
+                  <li class="header-right__items">
+                      <a href="page_porfolio.html" class="menu__link">services</a>
+                  </li>
+                  <li class="header-right__items">
+                      <a href="#" class="menu__link">about</a>
+                  </li>
+                  <li class="header-right__items menu__items--blog">
+                    <a href="page_shop.html" class="menu__link menu__link--blog">Page</a>
+                </li>
+                  <li class="header-right__items ">
+                      <a href="index.html" class="menu__link">Blog</a>
+                  </li>
+                  <li class="header-right__items">
+                    <a href="#" class="menu__link">contact</a>
+                </li>
+                  
+              </ul>
+              <div class="icon-btn d-flex">
+                <a href="#" class="search-icon">
+                  <img src="./images/Search.svg" alt="search-icon">
+                </a>
+                <a href="#" class="bag-icon">
+                  <img class="bag-icon__item" src="./images/Bag 2.svg" alt="bag-icon">
+                </a>
+                <a href="#" class=" button button--blue">Sign up</a>
+                <div class="modal-overlay"></div>
+              </div>
+          </div>
+          <label for="taskbar" class="header-taskbar">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+      </div>
+  </div>
+  </header>
+  <section class="page-section page-section--design ">
+    <div class="design-brand">
+      <div class="container" style="position: relative;">
+        <div class="home-brand">
+          <h1 class="home-brand__title">Design & Branding
+          Studio in New York</h1>
+          <p class="home-brand__content">We create outstanding and world-class digital products, web design, apps, and branding.</p>
+        </div>
+        <div class="home-discover d-flex">
+          <a href="#" class=" button button--black">Discover now</a>
+          <div class="home-discover__play">
+            <i class="play fa-solid fa-play"></i>
+          </div>
+        </div>
+        
+        <img class="dots-img dots-img--orange" src="./images/Dots.png" alt="">
+      </div>
+        <!-- <img src="./images/design.png" alt="" class="design-brand__img"> -->
+        <img class="dots-img dots-img--black" src="./images/Dots2.png" alt="">
+    </div>
+    
+  </section>
+  <section class="page-section pt-120 pb-120">
+    <div class="container">
+      <div class="text-box d-flex">
+        <h1 class="text-box__title">A premier New York-based design studio</h1>
+        <p class="text-box__content">We fuel the growth of purpose driven brands through strategy activation, design
+          empowerment, and market adoption.</p> 
+      </div>
+      <div class="home-web d-flex">
+        <div class="home-web__left">
+          <img class="web-note" src="./images/2w.png" alt="">
+          <img class="web-brand" src="./images/1w.png" alt="">
+          <img class="dots-img dots-img--web" src="./images/Dots2.png" alt="">
+        </div>
+        <div class="home-web__right">
+          <div class="home-web__title">Websites and branding that set the groundwork for successful marketing</div>
+          <p class="home-web__content">We create human-centered enterprise software that has the polished, snappy feel of the best consumer apps.</p>
+          <div class="web-box d-flex">
+            <div class="web-box__branding">
+              <div class="branding-pen">
+                <i class="web-icon fa-solid fa-pen-nib"></i>
+              </div>
+              <p class="web-box__title">Branding</p>
+              <span class="we-box__content">We design digital products used
+                by millions of people.</span>
+            </div>
+            <div class="web-box__design">
+              <div class="design-cup">
+                <i class="web-icon fa-solid fa-mug-hot"></i>
+              </div>
+              <p class="web-box__title">UX/UI Design</p>
+              <span class="we-box__content">We design digital products used
+                by millions of people.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section pt-100 ">
+    <div class="container">
+      <div class="technologies-content">Working with the most trusted technologies</div>
+      <div class="technologies pb-100 d-flex">
+        <img src="./images/google.png" alt="">
+        <img src="./images/js.png" alt="">
+        <img src="./images/aws.png" alt="">
+        <img src="./images/stripe.png" alt="">
+        <img src="./images/cisco.png" alt="">
+        <img src="./images/ts.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section class="page-section pt-100 pb-120">
+    <div class="container">
+      <div class="project d-flex">
+        <div class="project-left">
+          <div class="project-left__title">Our projects</div>
+          <div class="project-left__content">We’ve had the pleasure of working with over 300 startups and companies in a broad array of industries.</div>
+          <a href="#" class="button button--black">Visit Works</a>
+        </div>
+        <div class="project-right d-flex">
+          <div class="project-right__top d-flex">
+            <div class="project-right__img d-flex">
+              <div class="graphic-design">
+                <img src="./images/Bc.png" alt="">
+                <div class="graphic-design__item d-flex">
+                  <div class="graphic-design__title">Business Cards</div>
+                  <div class="graphic-design__content">Graphic Design</div>
+                </div>
+                
+              </div>
+              <div class="graphic-design">
+                <img src="./images/tc.png" alt="">
+                <div class="graphic-design__item d-flex">
+                  <div class="graphic-design__title">Tea Connection</div>
+                  <div class="graphic-design__content">Packaging Design</div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="project-right__img d-flex">
+              <div class="graphic-design">
+                <img src="./images/NFT.png" alt="">
+                <div class="graphic-design__item d-flex">
+                  <div class="graphic-design__title">Artapp - NFT</div>
+                  <div class="graphic-design__content">App Development</div>
+                </div>
+                
+              </div>
+              <div class="graphic-design">
+                <img src="./images/cover.png" alt="">
+                <div class="graphic-design__item d-flex">
+                  <div class="graphic-design__title">Cover</div>
+                  <div class="graphic-design__content">Design</div>
+                </div>
+              </div>
+              
+              
+            </div>
+          </div>
+          <div class="button button--gray" >
+            view more
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section page-section--light pt-120 pb-120">
+    <div class="container" style="position: relative;">
+      <div class="text-box d-flex">
+        <h1 class="text-box__title">What our clients are saying about us</h1>
+        <p class="text-box__content">Customer satisfaction is a primary goal for our company</p> 
+      </div>
+      <div class="client-circle">
+        <i class="fa-solid fa-caret-left"></i>
+        <i class="fa-solid fa-caret-right"></i>
+      </div>
+    </div>
+   
+    <div class="container container--owl">
+      <div class="row pb-70">
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 3;">
+          <div class="client-box d-flex">
+            <img src="./images/monica.png" alt="" class="client-box__img">
+            <p class="client-box__name">Monica Smith</p>
+            <span class="client-box__brand">Brand & Co</span>
+            <p class="client-box__amazing">Amazing!!</p>
+            <p class="client-box__content">Overall experience is awesome!! I'm a visual thinker, and I couldn't function without a tool like this.</p>
+          </div>
+        </div>
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 3;">
+          <div class="client-box d-flex">
+            <img src="./images/vicent.png" alt="" class="client-box__img">
+            <p class="client-box__name">Monica Smith</p>
+            <span class="client-box__brand">Brand & Co</span>
+            <p class="client-box__amazing">Amazing!!</p>
+            <p class="client-box__content">Overall experience is awesome!! I'm a visual thinker, and I couldn't function without a tool like this.</p>
+          </div>
+        </div>
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 3;">
+          <div class="client-box d-flex">
+            <img src="./images/stella.png" alt="" class="client-box__img">
+            <p class="client-box__name">Monica Smith</p>
+            <span class="client-box__brand">Brand & Co</span>
+            <p class="client-box__amazing">Amazing!!</p>
+            <p class="client-box__content">Overall experience is awesome!! I'm a visual thinker, and I couldn't function without a tool like this.</p>
+          </div>
+        </div>
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 3;">
+          <div class="client-box d-flex">
+            <img src="./images/thomas.png" alt="" class="client-box__img">
+            <p class="client-box__name">Monica Smith</p>
+            <span class="client-box__brand">Brand & Co</span>
+            <p class="client-box__amazing">Amazing!!</p>
+            <p class="client-box__content">Overall experience is awesome!! I'm a visual thinker, and I couldn't function without a tool like this.</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  <section class="page-section pt-100 pb-100">
+    <div class="container">
+      <div class="frame ">
+        <div class="row pos-re">
+          <div class="col col-style--text" style="--col-xs: 12; --col-sm: 3; --col-md: 3; --col-lg: 3;">
+            <div class="experience-title">Digital agency in New York City</div>
+            <div class="experience-content">We're a user experience design agency focused on improving conversion and increasing customer engagement.</div>
+            <div class="experience-video">
+              <a href="#" class="experience-video__what" >What we do</a>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            
+          </div>
+          <div class="col col-style--mid" style="--col-xs: 12; --col-sm: 3; --col-md: 3; --col-lg: 3; ">
+            <div class="experience-box d-flex">
+              <img src="./images/Layout.svg" alt="">
+              <div class="experience-box__title"> User Experience</div>
+              <div class="experience-box__content">We create world-class apps, digital products, web, and branding.</div>
+            </div>
+          </div>
+          <div class="col col-style--top" style="--col-xs: 12; --col-sm: 3; --col-md: 3; --col-lg: 3;--grid-col-gap-horizontal:0px">
+            <div class="experience-box d-flex">
+              <img src="./images/FlowArrow.svg" alt="">
+              <div class="experience-box__title"> User Experience</div>
+              <div class="experience-box__content">We create world-class apps, digital products, web, and branding.</div>
+            </div>
+          </div>
+          <div class="col col-style--bot " style="--col-xs: 12; --col-sm: 3; --col-md: 3; --col-lg: 3; --grid-col-gap-horizontal:0px">
+            <div class="experience-box experience-box--blue d-flex">
+              <div class="experience-box__title experience-box__title--white"> User Experience</div>
+              <div class="experience-box__content">We create world-class apps, digital products, web, and branding.</div>
+              <div class="experience-video experience-video--white">
+                <a href="#" class="experience-video__what experience-video__what--white" >Read more</a>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section pt-100 pb-100">
+    <div class="container">
+      <div class="text-box pb-50 d-flex">
+        <h1 class="text-box__title">Meet the team behind everything we do</h1>
+      </div>
+      <div class="row">
+        <div class="col" style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 4;">
+          <div class="bg-light">
+            <img class="team-img" src="./images/team1.png" alt="">
+            <div class="team-name">Thomas Smith</div>
+            <div class="team-function">UI Deisgn / Development</div>
+            <div class="team-social d-flex">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 4;">
+          <div class="bg-light">
+            <img class="team-img" src="./images/team2.png" alt="">
+            <div class="team-name">Monica Smith</div>
+            <div class="team-function">UX Designer</div>
+            <div class="team-social d-flex">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 4;">
+          <div class="bg-light">
+            <img class="team-img" src="./images/team3.png" alt="">
+            <div class="team-name">Vincent Smith</div>
+            <div class="team-function">Product Designer</div>
+            <div class="team-social d-flex">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section page-section--light pt-120 pb-120">
+    <div class="container">
+      <div class="text-box text-box--width">
+        <h1 class="text-box__title  pb-50">We will keep you up to date and give you tips to help you optimise your company</h1>
+      </div>
+      <div class="row">
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 4;">
+         <img src="./images/company1.png" alt="">
+         <div class="porfolio-tip ">
+          <div class="porfolio-tip__title">10 secrets to connect with your audience through your website and blog</div>
+          <div class="porfolio-tip__content">It is not the same to write a blog with simple information as to write by connecting with your target.</div>
+          <div class="porfolio-tip__time d-flex">
+            <i class="fa-solid fa-calendar-days"></i>
+            <p class="porfolio-tip__date">May 7, 2022</p>
+            <i class="fa-regular fa-clock"></i>
+            <p class="porfolio-tip__date">10 min read</p>
+          </div>
+        </div>
+        </div>
+        <div class="col " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 4;">
+          <img src="./images/company2.png" alt="">
+          <div class="porfolio-tip">
+           <div class="porfolio-tip__title">Which WordPress should you choose: WordPress.com vs WordPress.org?</div>
+           <div class="porfolio-tip__content">Do you know what the difference is between WordPress.com and WordPress.org? Since they are not the same.</div>
+           <div class="porfolio-tip__time  d-flex">
+             <i class="fa-solid fa-calendar-days"></i>
+             <p class="porfolio-tip__date">May 7, 2022</p>
+             <i class="fa-regular fa-clock"></i>
+             <p class="porfolio-tip__date">10 min read</p>
+           </div>
+          </div>
+         </div>
+        <div class="col col-gap " style="--col-xs: 12; --col-sm: 4; --col-md: 4; --col-lg: 4;">
+         <div class="tip-box tip-box--flex d-flex">
+          <div class="porfolio-tip porfolio-tip--pt">
+            <div class="porfolio-tip__title">These web design trends will help inform and inspire what people build for the web</div>
+            <div class="porfolio-tip__time porfolio-tip__time--bd d-flex">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p class="porfolio-tip__date">May 7, 2022</p>
+              <i class="fa-regular fa-clock"></i>
+              <p class="porfolio-tip__date">10 min read</p>
+            </div>
+          </div>
+          <img class="tip-box__img" src="./images/Img.png" alt="">
+         </div>
+         <div class="tip-box tip-box--flex d-flex">
+          <div class="porfolio-tip porfolio-tip--pt">
+            <div class="porfolio-tip__title">What are the differences between Google Analytics and Analytics 360</div>
+            <div class="porfolio-tip__time porfolio-tip__time--bd d-flex">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p class="porfolio-tip__date">May 7, 2022</p>
+              <i class="fa-regular fa-clock"></i>
+              <p class="porfolio-tip__date">10 min read</p>
+            </div>
+          </div>
+          <img class="tip-box__img" src="./images/Img2.png" alt="">
+         </div>
+         <div class="tip-box tip-box--flex d-flex">
+          <div class="porfolio-tip porfolio-tip--pt">
+            <div class="porfolio-tip__title">Niche Coworking: 4 shared workspaces for designers and developers</div>
+            <div class="porfolio-tip__time porfolio-tip__time--bd d-flex">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p class="porfolio-tip__date">May 7, 2022</p>
+              <i class="fa-regular fa-clock"></i>
+              <p class="porfolio-tip__date">10 min read</p>
+            </div>
+          </div>
+          <img class="tip-box__img" src="./images/Img3.png" alt="">
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section pt-120 pb-120">
+    <div class="container">
+      <div class="text-box d-flex">
+        <h1 class="text-box__title text-box__title--size"> Across all platforms and brand touchpoints</h1>
+        <p class="text-box__content">We work closely with our clients to define, design and develop transformative user experiences</p> 
+      </div>
+      <div class="across">
+        <img src="./images/Map.png" alt="">
+        <img src="./images/across1.png" alt="" class="across__img across__img--style1">
+        <img src="./images/across2.png" alt="" class="across__img across__img--style2">
+        <img src="./images/across3.png" alt="" class="across__img across__img--style3">
+        <img src="./images/across4.png" alt="" class="across__img across__img--style4">
+        <img src="./images/across5.png" alt="" class="across__img across__img--style5">
+        <img src="./images/across6.png" alt="" class="across__img across__img--style6">
+        <img src="./images/across7.png" alt="" class="across__img across__img--style7">
+        <img src="./images/across8.png" alt="" class="across__img across__img--style8">
+        <img src="./images/across10.png" alt="" class="across__img across__img--style9">
+        <img src="./images/across9.png" alt="" class="across__img across__img--style10">
+      </div>
+    </div>
+  </section>
+  <section class="page-section page-section--light pt-100 pb-100">
+    <div class="container">
+      <div class="text-box text-box--width d-flex">
+        <h1 class="text-box__title">We've helped brands of all kinds and businesses
+          of every size grow their online revenue</h1>
+        <p class="text-box__content pb-50">Are you ready to start your project? Contact us today and get started!</p> 
+          <a href="#" class=" button button--black">contact us</a>
+      </div>
+      
+    </div>
+  </section>
+  <footer class="page-footer pt-100">
+    <div class="container">
+      <div class="row pb-100 d-flex">
+        <div class="col footer-logo" style="--col-xs: 6; --col-lg: 2;">
+          <a href="#" class="footer-logo__icon d-flex">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="44" viewBox="0 0 32 44" fill="none">
+              <g clip-path="url(#clip0_301_6510)">
+                <path d="M32 16C32 11.7565 30.3143 7.68687 27.3137 4.68629C24.3131 1.68571 20.2435 0 16 0C11.7565 0 7.68687 1.68571 4.68629 4.68629C1.68571 7.68687 0 11.7565 0 16C0 16.2133 3.91006e-07 16.4267 0.0170671 16.64V16H16.0171V32C20.2576 31.9955 24.3229 30.3078 27.3197 27.3077C30.3166 24.3076 32 20.2405 32 16Z" fill="#61DCDF"/>
+                <path d="M0 17V44H16V32.3071H15.9872C11.8545 32.3071 7.88218 30.7135 4.90207 27.8602C1.92197 25.0069 0.165306 21.1151 0 17Z" fill="#886CFF"/>
+                <path d="M0 16V16.64C0.165262 20.7693 1.92146 24.6746 4.90077 27.5378C7.88007 30.401 11.8514 32 15.9829 32H16V16H0Z" fill="#F9E492"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_301_6510">
+                  <rect width="32" height="44" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+            <h4 class="footer-logo__item">Pollock</h4>
+          </a>
+        </div>
+        <div class="col footer-company"style="--col-xs: 6; --col-lg: 2;">
+          <h4 class="footer-company__title">Company</h4>
+          <p class="footer-company__item">About</p>
+          <p class="footer-company__item">Work</p>
+          <p class="footer-company__item">Careers</p>
+          <p class="footer-company__item">Pricing</p>
+          <p class="footer-company__item">Blog</p>
+        </div>
+        <div class="col footer-company"style="--col-xs: 6; --col-lg: 2;">
+          <h4 class="footer-company__title">Services</h4>
+          <p class="footer-company__item">Branding</p>
+          <p class="footer-company__item">Websites</p>
+          <p class="footer-company__item">Development</p>
+          <p class="footer-company__item">Strategy</p>
+          <p class="footer-company__item">Platforms</p>
+        </div>
+        <div class="col footer-company"style="--col-xs: 6; --col-lg: 2;">
+          <h4 class="footer-company__title">Contact</h4>
+          <p class="footer-company__item">Help Desk</p>
+          <p class="footer-company__item">Docs</p>
+          <p class="footer-company__item">Open a Ticket</p>
+          <p class="footer-company__item">Chat</p>
+          <p class="footer-company__item">Forum</p>
+        </div>
+        <div class="col footer-newsletter"style="--col-xs: 12; --col-lg: 4;">
+          <h4 class="footer-company__title">Newsletter</h4>
+          <p class="footer-newsletter__title">
+            Subscribe to our newsletter to keep up to date on our marketing, website, design services, and tips.
+          </p>
+          <div class="subcrible__btn subcrible__btn--fs d-flex">
+            <input class=" input subcribe__input subcribe__input--bg " type="text" placeholder="Enter email">
+            <a href="#" class=" button button--purple button--blue-bt">Subcribe</a>
+          </div>
+          <p class="footer-newsletter__title pt-15 ">
+            We hate spam as much as you do. We will never, ever send you such emails. 
+          </p>
+        </div>
+      </div>
+      <div class="footer-border"></div>
+      <div class="footer-bottom d-flex">
+        <p class="footer-bottom__content">© 2022 Pollock LLC. All Rights Reserved. Terms & Conditions. Privacy Policy.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="196" height="52" viewBox="0 0 196 52" fill="none">
+          <circle cx="26" cy="26" r="26" fill="#886CFF"/>
+          <path d="M27.6497 35.893V26.0503H30.6079L31 22.5862H27.6497L27.6547 20.8522C27.6547 19.9487 27.7462 19.4648 29.1297 19.4648H30.9793V16H28.0204C24.4663 16 23.2155 17.6804 23.2155 20.5068V22.5864H21V26.0509H23.2155V35.7535C24.0786 35.9148 24.9709 36 25.8846 36C26.4748 36 27.0644 35.9643 27.6497 35.893Z" fill="white"/>
+          <circle cx="98" cy="26" r="26" fill="#886CFF"/>
+          <path d="M111 18.3677C110.033 18.7692 109.003 19.0354 107.929 19.1646C109.034 18.54 109.877 17.5585 110.274 16.3754C109.243 16.9569 108.106 17.3677 106.894 17.5969C105.915 16.6108 104.521 16 103 16C100.049 16 97.6734 18.2677 97.6734 21.0477C97.6734 21.4477 97.7091 21.8323 97.7969 22.1985C93.3655 21.9938 89.4444 19.9831 86.8102 16.92C86.3504 17.6754 86.0806 18.54 86.0806 19.4708C86.0806 21.2185 87.0312 22.7677 88.4483 23.6646C87.5919 23.6492 86.7517 23.4138 86.04 23.0431C86.04 23.0585 86.04 23.0785 86.04 23.0985C86.04 25.5508 87.8876 27.5877 90.3105 28.0569C89.8766 28.1692 89.4037 28.2231 88.913 28.2231C88.5717 28.2231 88.2272 28.2046 87.9039 28.1369C88.5945 30.1354 90.5543 31.6046 92.8845 31.6523C91.071 32.9954 88.7684 33.8046 86.2756 33.8046C85.8385 33.8046 85.4192 33.7862 85 33.7354C87.3611 35.1769 90.1594 36 93.177 36C102.986 36 108.348 28.3077 108.348 21.64C108.348 21.4169 108.34 21.2015 108.329 20.9877C109.386 20.2769 110.275 19.3892 111 18.3677Z" fill="white"/>
+          <circle cx="170" cy="26" r="26" fill="#886CFF"/>
+          <path d="M160 18.3232C160 17.6498 160.236 17.0943 160.709 16.6566C161.182 16.2188 161.797 16 162.554 16C163.297 16 163.899 16.2155 164.358 16.6465C164.831 17.0909 165.068 17.67 165.068 18.3838C165.068 19.0303 164.838 19.569 164.378 20C163.905 20.4444 163.284 20.6667 162.514 20.6667H162.493C161.75 20.6667 161.149 20.4444 160.689 20C160.23 19.5556 160 18.9966 160 18.3232ZM160.264 36V22.5051H164.764V36H160.264ZM167.257 36H171.757V28.4646C171.757 27.9933 171.811 27.6296 171.919 27.3737C172.108 26.9158 172.395 26.5286 172.78 26.2121C173.166 25.8956 173.649 25.7374 174.23 25.7374C175.743 25.7374 176.5 26.7542 176.5 28.7879V36H181V28.2626C181 26.2694 180.527 24.7576 179.581 23.7273C178.635 22.697 177.385 22.1818 175.831 22.1818C174.088 22.1818 172.73 22.9293 171.757 24.4242V24.4646H171.736L171.757 24.4242V22.5051H167.257C167.284 22.936 167.297 24.2761 167.297 26.5253C167.297 28.7744 167.284 31.9326 167.257 36Z" fill="white"/>
+        </svg>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

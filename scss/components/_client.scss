@@ -1,0 +1,58 @@
+.page-section--light {
+  background-color: var(--bgbg-light);
+}
+.client-box {
+  border-radius: 20px;
+  background: var(--color-5, #FFF);
+  box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.20);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 35px;
+}
+.client-box__img {
+  border-radius: 50%;
+}
+.client-box__name {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.45; /* 145.455% */
+  letter-spacing: -1px;
+  padding-top: 10px;
+  color: var(--text-heading);
+}
+.client-box__brand {
+  font-family: "DM Sans";
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+.client-box__amazing {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.55; 
+  letter-spacing: 0.4px;
+  color: var(--text-heading);
+}
+.client-box__content {
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 18px;
+  letter-spacing: -0.3px;
+  padding-top: 25px;
+}
+.client-circle {
+  width: 100px;
+  height: 100px;
+  background-color: var(--bgbg-gray, #292F3A);
+  border-radius: 50%;
+  right: 0;
+  position: absolute;
+  bottom: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #FFF;
+  font-size: 14px;
+}

@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./scss/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,600;0,900;1,100;1,200;1,300;1,600;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="font/fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header class="page-header">
@@ -35,7 +40,7 @@
                       <a href="#" class="menu__link active">Home</a>
                   </li>
                   <li class="header-right__items">
-                      <a href="#" class="menu__link">services</a>
+                      <a href="page_porfolio.html" class="menu__link">services</a>
                   </li>
                   <li class="header-right__items">
                       <a href="#" class="menu__link">about</a>
@@ -86,7 +91,7 @@
     <div class="container">
       <div class="blog d-flex">
         <div class="sidebar">
-          <div class="sidebar-shop pb-50">
+          <div class="sidebar-shop ">
             <div class="sidebar-shop__title d-flex">
               <p class="sidebar-shop__content">Category</p>
               <i class="fa-solid fa-angle-up"></i>
@@ -112,13 +117,15 @@
             <div class="sidebar-shop__item">
               <div class="sidebar-checkbox sidebar-checkbox--pb d-flex">
                 <div class="sidebar-checkbox__content d-flex ">
-                  <input type="checkbox" class="sidebar-checkbox__input">
+                  <input type="checkbox" checked="checked" class="sidebar-checkbox__input--el">
+                  
                   <p class="sidebar-checkbox__item">Electronics</p>
                 </div>
                 <i class="fa-solid fa-angle-up"></i>
               </div>
               <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
                 <input type="checkbox" class="sidebar-checkbox__input">
+                
                 <p class=" sidebar-checkbox__item sidebar-checkbox__item--color">Accessories</p>
               </div>
               <div class="sidebar-checkbox__content sidebar-checkbox__content--pl d-flex ">
@@ -147,7 +154,7 @@
               </div>
             </div>  
           </div>
-          <div class="sidebar-shop pb-50">
+          <div class="sidebar-shop ">
             <div class="sidebar-shop__title d-flex">
               <p class="sidebar-shop__content  ">Brand</p>
               <i class="fa-solid fa-angle-up"></i>
@@ -203,21 +210,24 @@
               </div>
             </div>
           </div>
-          <div class="sidebar-shop pb-50">
+          <div class="sidebar-shop ">
             <div class="sidebar-shop__title d-flex">
               <p class="sidebar-shop__content  ">Price</p>
               <i class="fa-solid fa-angle-up"></i>
             </div>
             <div class="sidebar-shop__item">
-              <div class="sidebar-checkbox__content d-flex ">
-                <input type="range" min="1" max="100" value="100 " class="slider">
-                <input type="range" min="1" max="100" value="100" class="slider">
+             <div class="price">
+              <div class="price__box d-flex">
+                <div class="price__dot price__dot--left"> $149  </div>
+                <div class="price__dot price__dot--right">$2,999</div>
+              </div>
+              <div class="price__content text--uppercase d-flex">
+                <p class="price__item text--text">Price: $99 — $1999</p>
+                <p class="price__item text--blue ">filter</p>
                 
               </div>
-              <div class="sidebar-checkbox sidebar-checkbox--text d-flex">
-                <p class="sidebar-checkbox__item sidebar-checkbox__item--color">Price: $99 — $1999</p>
-                <p class="sidebar-checkbox__item sidebar-checkbox__item--text ">filter</p>
-              </div>
+             </div>
+              
               
             </div>
             

@@ -23,11 +23,12 @@
   --bgbg-gray: #292F3A;
   --bgbg-gray: #292F3A;
   --text-text-gray:#E7E5EA;
+  --purple-gradient: #61dcdf #886cff;
 }
 body {
   background-color: #fff;
   color: #7B88A8;
-  font-family: "outfit", san-serif;
+  font-family: outfit;
   font-size: 15px;
   line-height: 1.6;
   font-weight: 400;
@@ -112,4 +113,13 @@ img {
 }
 .pb-10 {
   padding-bottom: 10px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+.pb-120 {
+  padding-bottom: 120px;
+}
+.pt-120 {
+  padding-top: 120px;
 }

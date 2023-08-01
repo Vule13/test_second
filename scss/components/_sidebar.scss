@@ -106,7 +106,7 @@
 
 .subcribe-bg {
   background-size: 100% 100%;
-  background-image: url("/images/BG footer.png");
+  background-image: url("../images/BG footer.png");
 }
 .subcribe {
   text-align: center;
@@ -132,6 +132,7 @@
 }
 .sidebar-shop {
   width: 100%;
+  padding-bottom: 20px;
 }
 .sidebar-shop__content {
   font-size: 18px;
@@ -155,7 +156,7 @@
 }
 .sidebar-checkbox__content {
   gap: 10px;
-  
+  align-items: center;
 }
 .sidebar-checkbox__input {
   background-color: var(--text-text-gray);
@@ -184,4 +185,92 @@
 .sidebar-checkbox__item--text {
   color: #4F77FF;
   
+}
+
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: #ddd;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+input[type="checkbox"]::after {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 700;
+  font-size: 12px;
+  content: "\f00c";
+  color: #fff;
+  opacity: 0;
+  display: none;
+  transition: opacity 0.2s ease-in-out;
+ }
+ input[type="checkbox"]:checked {
+  background-color: #292929;
+ }
+ input[type="checkbox"]:checked::after {
+  opacity: 1;
+  display: block;
+ }
+ 
+.price {
+  position: relative;
+  height: 2px;
+  width: 100%;
+  background-color: var(--lines-gray-line);
+  margin-top: 15px;
+  &::before {
+    position: absolute;
+    content: "";
+    background-color: var(--action-blue);
+    height: 2px;
+    width: calc(100% - 49px);
+    right: 0;
+  }
+}
+.price__content {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.price__box {
+  justify-content: space-between;
+  
+}
+.price__dot--left {
+  padding-left: 35px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--action-blue);
+    border-radius: 50%;
+    top: -5px;
+    transform: translateX(10px);
+  }
+}
+.price__dot {
+  padding-top: 5px;
+  color: var(--text-heading);
+  letter-spacing: -0.3px;
+  line-height: 1.7;
+  position: relative;
+  
+}
+.price__dot--right {
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: var(--action-blue);
+    border-radius: 50%;
+    top: -5px;
+    right: 0;
+  }
 }

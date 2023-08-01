@@ -1,0 +1,27 @@
+
+.bg-light {
+  background-color: var(--bgbg-light);
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.team-name {
+  font-size: 22px;
+  line-height: 1.5; /* 145.455% */
+  letter-spacing: -1px;
+  color: var(--text-heading);
+  padding-top: 25px;
+}
+.team-function {
+  font-family: DM Sans;
+  font-size: 16px;
+  opacity: 0.8;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.team-social {
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}

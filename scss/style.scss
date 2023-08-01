@@ -4,6 +4,9 @@
 @import './components/_textbox.scss';
 @import './components/_input.scss';
 @import './components/_sidebar.scss';
+@import './components/_client.scss';
+@import './components/_dots.scss';
+@import './components/_team.scss';
 //Base
 @import './base/_reset.scss';
 //Layout
@@ -14,5 +17,7 @@
 @import'./page/_single-product.scss';
 @import'./page/_blog.scss';
 @import'./page/_shop.scss';
+@import'./page/_porfolio.scss';
+@import'./page/_page-home.scss';
 // home
 @import'./page/_home.scss';
