@@ -4,11 +4,15 @@
 .client-box {
   border-radius: 20px;
   background: var(--color-5, #FFF);
-  box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.20);
+  
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 35px;
+  transition: all 0.3s ease-in;
+  &:hover {
+    box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.20);
+  }
 }
 .client-box__img {
   border-radius: 50%;

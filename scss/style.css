@@ -366,6 +366,7 @@
 .sidebar-checkbox {
   justify-content: space-between;
   align-items: center;
+  font-family: "DM SANS";
 }
 
 .sidebar-checkbox--pb {
@@ -379,6 +380,7 @@
 .sidebar-checkbox__content {
   gap: 10px;
   align-items: center;
+  font-family: "DM Sans";
 }
 
 .sidebar-checkbox__input {
@@ -512,11 +514,14 @@ input[type=checkbox]:checked::after {
 .client-box {
   border-radius: 20px;
   background: var(--color-5, #FFF);
-  box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.2);
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 35px;
+  transition: all 0.3s ease-in;
+}
+.client-box:hover {
+  box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.2);
 }
 
 .client-box__img {
@@ -855,7 +860,7 @@ input[type=checkbox]:checked::after {
   color: #fff;
 }
 
-.footer-company__title {
+.footer-box__title {
   color: #fff;
   font-weight: 400;
   line-height: 1.45;
@@ -863,7 +868,7 @@ input[type=checkbox]:checked::after {
   padding-bottom: 10px;
 }
 
-.footer-company__item {
+.footer-box__item {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.7;
@@ -873,7 +878,7 @@ input[type=checkbox]:checked::after {
   padding-top: 10px;
 }
 
-.footer-newsletter__title {
+.footer-newsletter__content {
   font-family: "DM Sans";
   font-size: 16px;
   font-weight: 400;
@@ -886,14 +891,17 @@ input[type=checkbox]:checked::after {
   justify-content: flex-start;
 }
 
+.footer-newsletter__title {
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: -1px;
+  padding-bottom: 10px;
+}
+
 .footer-bottom__content {
   color: #E7E5EA;
   font-weight: 400;
-}
-
-.footer-border {
-  border: 1px solid var(--text-text);
-  opacity: 0.3;
 }
 
 .footer-bottom {
@@ -905,6 +913,14 @@ input[type=checkbox]:checked::after {
 .subcribe__content {
   font-size: 22px;
   letter-spacing: -1px;
+}
+
+.footer-bottom__icon {
+  gap: 20px;
+}
+
+.row--border {
+  border-bottom: 1px solid var(--text-text);
 }
 
 .tags-item {
@@ -1270,6 +1286,12 @@ img {
 .product-right__text {
   font-size: 16px;
   width: 100%;
+}
+
+.product-content__text {
+  font-size: 16px;
+  width: 100%;
+  font-family: "DM Sans";
 }
 
 .product-right__text-color {
@@ -1643,6 +1665,7 @@ img {
   font-size: 16px;
   color: var(--text-text);
   text-align: center;
+  font-family: "DM sans";
 }
 
 .pagination--style {
@@ -1786,6 +1809,21 @@ img {
   display: flex;
   flex-direction: column;
   gap: 23px;
+}
+
+.porfolio-img {
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.porfolio-img__item {
+  max-width: 100%;
+  transition: all 1s;
+  transform: scale(1);
+}
+.porfolio-img__item:hover {
+  transform: scale(1.2);
 }
 
 .design-brand__img {
