@@ -14,11 +14,12 @@
   border-radius: 5px;
   font-size: 16px;
   border: 1px solid var(--lines-gray-line, #E7E5EA);
-  
+  font-family: "DM sans";
 }
 .input--search {
   border-radius: 5px;
   border: 1px solid var(--lines-gray-line, #E7E5EA);
+  font-family: "DM Sans";
   @media (max-width:1199px){
     width: 100%;
   }
@@ -31,7 +32,7 @@
   padding-right: 20px;
   color: #7B88A8;
   font-size: 16px;
-  font-family: "DM Sans", san-serif;
+  font-family: "DM Sans";
   height: 48px;
   width: 100%;
 }
@@ -42,7 +43,8 @@
   border: 1px solid var(--lines-gray-line, #E7E5EA);
   color: #7B88A8;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.7;
+  font-family: "DM Sans";
 }
 .write-input {
   width: 100%;
@@ -57,8 +59,10 @@
   border: 1px solid var(--lines-gray-line, #E7E5EA);
   padding-left: 16px;
   padding-top: 11px;
-  opacity: 0.6;
+  opacity: 0.7;
   border-radius: 5px;
-  font-family: outfit;
+  font-family: "DM SANS";
   font-size: 16px;
+  line-height: 1.6;
+
 }

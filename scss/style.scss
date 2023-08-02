@@ -7,17 +7,21 @@
 @import './components/_client.scss';
 @import './components/_dots.scss';
 @import './components/_team.scss';
+@import './components/_experience.scss';
+@import'./components/_header.scss';
+@import'./components/_footer.scss';
+@import './components/_tag.scss';
+@import'./components/_home.scss';
+@import'./components/_comments.scss';
 //Base
 @import './base/_reset.scss';
 //Layout
 @import './layout/_grid.scss';
 //page
-@import'./page/_header.scss';
-@import'./page/_footer.scss';
+
 @import'./page/_single-product.scss';
 @import'./page/_blog.scss';
 @import'./page/_shop.scss';
 @import'./page/_porfolio.scss';
 @import'./page/_page-home.scss';
 // home
-@import'./page/_home.scss';

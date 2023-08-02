@@ -18,16 +18,28 @@
   }
 }
 
-.blog-title {
+.blog-text__title {
   padding-bottom: 15px;
   padding-top: 20px;
 }
-.blog-box__content {
+
+.blog-text__content {
+  padding-bottom: 40px;
+  padding-top: 30px;
+  font-family: "DM Sans";
+  font-size: 16px;
+}
+.blog-text {
   padding-top: 15px;
-  font-size: 16;
+  font-size: 16px;
+  padding: 25px 40px 40px 40px;
+}
+.blog-box__content {
+  padding: 25px 40px 40px 40px;
 }
 .blog-item {
   font-size: 16px;
+  font-family: "DM sans";
 }
 .blog-item--bg {
   background-color: var(--bgbg-light);
@@ -38,8 +50,9 @@
   font-size: 18px;
   letter-spacing: -0.3px;
   line-height: 1.55;
+  color: var(--text-heading)
 }
-.blog-content--color {
+.blog-text__content--color {
   color: var(--text-heading);
 }
 .blog-social {
@@ -93,12 +106,9 @@
   letter-spacing: -1px;
 }
 .blog-box__content {
-  padding: 25px 40px 40px 40px;
+  
 }
-.blog-content {
-  padding-bottom: 40px;
-  padding-top: 30px;
-}
+
 
 .blog-box {
   border-radius: 5px;
@@ -110,60 +120,6 @@
 }
 
 
-.blog-comments {
-  border: 1px solid  rgba(97, 119, 152, 0.20);
-  padding: 0 30px 50px 30px;
-}
-.comments-title {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.55; /* 155.556% */
-  letter-spacing: 0.4px;
-  color: var(--text-heading);
-
-}
-.comments-title--bd {
-  border-bottom: 1px solid rgba(97, 119, 152, 0.20) ;
-}
-.comments-first {
- padding-top: 20px;
- padding-bottom: 20px;
-}
-.comments-first--bd {
-  border-bottom: 1px solid rgba(97, 119, 152, 0.20) ;
-}
-.comments-first__img {
-  position: absolute;
-}
-.comments-inf {
-  justify-content: space-between;
-
-}
-.comments-first__content {
-
-    padding-top: 25px;
-    font-size: 16px;
-}
-.comments-inf__name {
-  color: var(--text-heading);
-  font-size: 16px;
-}
-.comments-inf__date {
-  font-weight: 500;
-}
-.comments-first__item {
-  cursor: pointer;
-  text-transform: uppercase;
-
-}
-.comments-first__reply {
-  color: var(--action-blue);
-  align-items: center;
-  padding-left: 10px;
-}
-.comments-pd {
-  padding-left: 100px;
-}
 .blog-box--bg {
   background-color: var(--bgbg-light);
   padding: 20px 40px 50px 40px;
@@ -183,4 +139,5 @@
   line-height: 1.5;
   letter-spacing: -0.3px;
   color: var(--text-heading);
+  font-family: "DM Sans";
 }
