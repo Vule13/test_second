@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .button {
   padding: 13px 24px;
   border-radius: 5px;
@@ -16,6 +17,9 @@
     font-size: 12px;
     font-weight: 400;
   }
+}
+.button:hover {
+  opacity: 0.7;
 }
 
 .button--blue {
@@ -176,6 +180,7 @@
   padding-left: 20px;
   padding-right: 20px;
   color: #7B88A8;
+  cursor: pointer;
   font-size: 16px;
   font-family: "DM Sans";
   height: 48px;
@@ -251,7 +256,7 @@
 
 .sidebar-box__content i {
   position: absolute;
-  right: 20px;
+  right: 45px;
   top: 33%;
   cursor: pointer;
 }
@@ -312,13 +317,6 @@
   line-height: 1.7;
   letter-spacing: 0.4px;
   font-family: outfit;
-}
-
-.pagination {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  gap: 46px;
 }
 
 .subcribe-bg {
@@ -619,7 +617,7 @@ input[type=checkbox]:checked::after {
   font-size: 22px;
 }
 
-.experience-title {
+.experience__title {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.27; /* 127.778% */
@@ -628,18 +626,18 @@ input[type=checkbox]:checked::after {
   padding-bottom: 30px;
 }
 
-.experience-content {
+.experience__content {
   font-family: DM Sans;
   font-size: 18px;
   letter-spacing: -0.3px;
   padding-bottom: 50px;
 }
 
-.experience-video {
+.experience__video {
   color: #886CFF;
 }
 
-.experience-video__what {
+.experience__what {
   color: #886CFF;
   text-transform: uppercase;
 }
@@ -868,6 +866,12 @@ input[type=checkbox]:checked::after {
   padding-bottom: 10px;
 }
 
+.footer-box {
+  display: flex;
+  flex: 10px;
+  flex-direction: column;
+}
+
 .footer-box__item {
   font-size: 14px;
   font-weight: 500;
@@ -1049,6 +1053,40 @@ input[type=checkbox]:checked::after {
 
 .comments-pd {
   padding-left: 100px;
+}
+
+.pagination {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.pagination__item {
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+  line-height: 1.7; /* 171.429% */
+  letter-spacing: -0.3px;
+  transition: all 0.3s ease;
+}
+.pagination__item:hover {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--action-blue);
+  cursor: pointer;
+}
+.pagination__item:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--action-blue);
 }
 
 * {
@@ -1486,6 +1524,10 @@ img {
 .blog-text__title {
   padding-bottom: 15px;
   padding-top: 20px;
+  font-size: 36px;
+  line-height: 1.27;
+  letter-spacing: -1px;
+  font-weight: 500;
 }
 
 .blog-text__content {
@@ -1529,31 +1571,6 @@ img {
 
 .blog-social {
   justify-content: space-between;
-}
-
-.pagination__item {
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.7; /* 171.429% */
-  letter-spacing: -0.3px;
-  transition: all 0.3s ease;
-}
-.pagination__item:hover {
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-  color: #fff;
-  background-color: var(--action-blue);
-  cursor: pointer;
-}
-.pagination__item:nth-child(3) {
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-  color: #fff;
-  background-color: var(--action-blue);
 }
 
 .header-content {
@@ -1653,6 +1670,21 @@ img {
   padding-bottom: 40px;
 }
 
+.shop-product__img {
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.shop-product__item {
+  max-width: 100%;
+  transition: all 1s;
+  transform: scale(1);
+}
+.shop-product__item:hover {
+  transform: scale(1.2);
+}
+
 .shop-product__title {
   font-size: 18px;
   font-weight: 500;
@@ -1702,6 +1734,21 @@ img {
 
 .resent-project__item {
   gap: 15px;
+}
+
+.porfolio-home__box {
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.porfolio-home__img {
+  max-width: 100%;
+  transition: all 1s;
+  transform: scale(1);
+}
+.porfolio-home__img:hover {
+  transform: scale(1.2);
 }
 
 .resent-project__arrow {
@@ -1877,13 +1924,15 @@ img {
   background-color: #fff;
   border-radius: 50%;
   color: #000;
+}
+.home-discover__play:hover {
   box-shadow: 0px 5px 20px rgba(18, 2, 47, 0.15);
 }
 
 .play {
   position: relative;
   top: 50%;
-  transform: translate(-4px, -10px);
+  transform: translate(-4px, -12px);
   left: 50%;
 }
 
@@ -2036,6 +2085,17 @@ img {
 
 .graphic-design {
   position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.graphic-design__img {
+  max-width: 100%;
+  transition: all 1s;
+  transform: scale(1);
+}
+.graphic-design__img:hover {
+  transform: scale(1.2);
 }
 
 .graphic-design__item {

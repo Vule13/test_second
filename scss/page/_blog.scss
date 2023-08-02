@@ -21,6 +21,10 @@
 .blog-text__title {
   padding-bottom: 15px;
   padding-top: 20px;
+  font-size: 36px;
+  line-height: 1.27;
+  letter-spacing: -1px;
+  font-weight: 500;
 }
 
 .blog-text__content {
@@ -57,30 +61,6 @@
 }
 .blog-social {
   justify-content: space-between;
-}
-.pagination__item {
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.7; /* 171.429% */
-  letter-spacing: -0.3px;
-  transition: all 0.3s ease;
-  &:hover {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: var(--action-blue);
-    cursor: pointer;
-  }
-  &:nth-child(3) {
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    color: #fff;
-    background-color: var(--action-blue);
-  }
 }
 .header-content {
   justify-content: space-between;

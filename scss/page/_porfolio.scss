@@ -25,6 +25,19 @@
   gap: 15px;
   
 }
+.porfolio-home__box {
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+.porfolio-home__img {
+  max-width: 100%;
+  transition: all 1s;
+  transform: scale(1);
+  &:hover {
+    transform: scale(1.2);
+  }
+}
 .resent-project__arrow {
   width: 55px;
   height: 40px;

@@ -1,5 +1,5 @@
 
-.experience-title {
+.experience__title {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.27; /* 127.778% */
@@ -7,16 +7,16 @@
   color: var(--text-heading);
   padding-bottom: 30px;
 }
-.experience-content {
+.experience__content {
   font-family: DM Sans;
   font-size: 18px;
   letter-spacing: -0.3px;
   padding-bottom: 50px;
 }
-.experience-video {
+.experience__video {
   color: #886CFF;
 }
-.experience-video__what {
+.experience__what {
   color: #886CFF;
   text-transform: uppercase;
 }

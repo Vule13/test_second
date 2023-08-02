@@ -31,6 +31,19 @@
     padding-bottom: 40px;
   }
 }
+.shop-product__img {
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+.shop-product__item {
+  max-width: 100%;
+  transition: all 1s;
+  transform: scale(1);
+  &:hover {
+    transform: scale(1.2);
+  }
+}
 .shop-product__title {
   font-size: 18px;
   font-weight: 500;

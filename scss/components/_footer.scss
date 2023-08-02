@@ -14,6 +14,11 @@
   letter-spacing: -1px;
   padding-bottom: 10px;
 }
+.footer-box {
+  display: flex;
+  flex: 10px;
+  flex-direction: column;
+}
 .footer-box__item {
   font-size: 14px;
   font-weight: 500;
