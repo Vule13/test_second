@@ -108,11 +108,14 @@
           <p class="product-right__text pt-15">Make everyday epic. Introducing Galaxy S22 and S22+ with Nightography camera, storage to hold all your night shots and a way beyond all-day battery.</p>
           <p class="product-right__text pt-30 ">Buy your Samsung Galaxy S22 Phones today at the best price! <a class="text-color" href="">More info</a></p>
           <p class="product-right__text-color">Colors</p>
-          <div class="product-circle d-flex">
+          <form action="" class="product-circle d-flex">
+            <input style="--box-color:#F7F5F1" type="radio"id="html" name="fav_language" value="HTML">
+            <input  style="--box-color:#5E756F" type="radio"id="html" name="fav_language" value="HTML">
+            <input  style="--box-color:#F2E0DC" type="radio"id="html" name="fav_language" value="HTML">
+            <!-- <div class="product-circle__item"></div>
             <div class="product-circle__item"></div>
-            <div class="product-circle__item"></div>
-            <div class="product-circle__item"></div>
-          </div>
+            <div class="product-circle__item"></div> -->
+          </form>
           <div class="product-input">
             <input class="product-input__number" type="number" name="quantity" placeholder="1" min="1" max="5">
             <i class="fa-solid fa-angle-up fa-solid--top"></i>
@@ -120,11 +123,18 @@
             <a href="#" class=" button button--blue button-transform">Sign up</a>
           </div>
           <div class="product-right__social ">
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-regular fa-envelope"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
+            <div class="social-flex">
+              <i class="fa-regular fa-heart"></i>
+              <div class="social-flex__border"></div>
+              <div class="social-flex__right d-flex">
+                <i class="fa-regular fa-envelope"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+            
+            
           </div>
           <div class="product-right_tag d-flex">
             <p class="product-right__SKU">SKU: 001</p>

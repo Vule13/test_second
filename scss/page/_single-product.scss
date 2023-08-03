@@ -92,25 +92,18 @@
 .product-input {
   padding-bottom: 30px;
 }
-.fa-heart {
-  padding-right: 30px;
+.social-flex {
+  display: flex;
+  gap: 40px;
+}
+.social-flex__border {
   border-right: 1px solid var(--text-text);
+  height: 16px;
 }
-.fa-envelope {
-  padding-left: 30px;
-  padding-right: 10px;
+.social-flex__right {
+  gap: 20px;
 }
-.fa-facebook-f {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.fa-instagram {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.fa-twitter {
-  padding-left: 10px;
-}
+
 .product-right__social {
   padding-bottom: 50px;
   border-bottom: 1px solid #E7E5EA;

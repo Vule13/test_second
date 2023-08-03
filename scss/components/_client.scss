@@ -4,7 +4,7 @@
 .client-box {
   border-radius: 20px;
   background: var(--color-5, #FFF);
-  
+  border: 1px solid var(--lines-gray-line, #E7E5EA);
   align-items: center;
   justify-content: center;
   flex-direction: column;

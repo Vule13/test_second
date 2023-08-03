@@ -4,10 +4,17 @@
 .dots-img--orange {
   left: 30%;
   @media (max-width: 1599px) {
-    bottom: 10%;
+    bottom: 5%;
+  }
+  @media (max-width: 1200px) {
+    display: none;
+    
   }
 }
 .dots-img--black {
   left: 30px;
   top: 85px;
+  @media (max-width: 1200px) {
+   display: none;
+  }
 }

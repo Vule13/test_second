@@ -1,4 +1,8 @@
-
+.experience {
+  @media (max-width: 991px){
+    text-align: center;
+  }
+}
 .experience__title {
   font-size: 36px;
   font-weight: 500;
@@ -30,6 +34,8 @@
   gap: 20px;
   border-radius: 20px;
   min-height: 270px;
+  max-width: 270px;
+  
 }
 .experience-box__content {
   font-family: DM Sans;
