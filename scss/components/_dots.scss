@@ -3,8 +3,11 @@
 }
 .dots-img--orange {
   left: 30%;
+  @media (max-width: 1599px) {
+    bottom: 10%;
+  }
 }
 .dots-img--black {
-  left: -150px;
+  left: 30px;
   top: 85px;
 }

@@ -581,9 +581,14 @@ input[type=checkbox]:checked::after {
 .dots-img--orange {
   left: 30%;
 }
+@media (max-width: 1599px) {
+  .dots-img--orange {
+    bottom: 10%;
+  }
+}
 
 .dots-img--black {
-  left: -150px;
+  left: 30px;
   top: 85px;
 }
 
@@ -1912,6 +1917,12 @@ img {
   letter-spacing: -2px;
   padding-bottom: 25px;
 }
+@media (max-width: 1599px) {
+  .home-brand__title {
+    font-size: 52px;
+    padding-bottom: 0;
+  }
+}
 
 .home-brand__content {
   padding-top: 25px;
@@ -1920,10 +1931,20 @@ img {
   letter-spacing: -0.3px;
   padding-bottom: 20px;
 }
+@media (max-width: 1599px) {
+  .home-brand__content {
+    font-size: 14px;
+  }
+}
 
 .home-discover {
   padding-top: 50px;
   gap: 10px;
+}
+@media (max-width: 1599px) {
+  .home-discover {
+    padding-top: 0;
+  }
 }
 
 .home-discover__play {
