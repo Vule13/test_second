@@ -7,7 +7,7 @@
     flex-direction: column;
   }
 }
-.blog-main {
+.blog__main {
   min-width: 835px;
   flex-direction: column;
   align-items: flex-start;
@@ -67,16 +67,16 @@
 .blog-social {
   justify-content: space-between;
 }
-.header-content {
+.blog-text__header {
   justify-content: space-between;
   padding-bottom: 20px;
 }
-.header-content__left {
+.blog-text__left {
   gap: 10px;
   text-transform: uppercase;
   align-items: center;
 }
-.header-content__author-name {
+.blog-text__author-name {
   font-weight: 500;
   letter-spacing: -0.3px;
 }
@@ -116,6 +116,7 @@
 .blog-related__content {
   width: 100%;
   gap: 20px;
+  min-height: 100%;
   flex-direction: column;
   
 }

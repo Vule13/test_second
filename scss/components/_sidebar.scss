@@ -85,7 +85,7 @@
   color: #fff;
   line-height: 1.45;
 }
-.header-content__right {
+.blog-text__right {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.7;
@@ -109,6 +109,9 @@
   letter-spacing: -2px;
   padding: 15px 0;
   font-size: 48px;
+  span {
+    color: var(--action-green);
+  }
 }
 .subcribe__content {
   padding: 15px 0;
@@ -151,6 +154,15 @@
   align-items: center;
   font-family: "DM Sans";
 }
+.sidebar-checkbox--pd {
+  padding-left: 25px;
+  padding-top: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: start;
+}
+  
 .sidebar-checkbox__input {
   background-color: var(--text-text-gray);
   width: 15px;
@@ -160,13 +172,7 @@
   color: var(--text-heading);
   line-height: 1.7;
 }
-.sidebar-checkbox__content--pl {
-  padding-left: 25px;
-  padding-top: 20px;
-  &:nth-child(1) {
-    padding-top: 26px;
-  }
-}
+
 .sidebar-checkbox__item--color {
   color: var(--text-text);
 }

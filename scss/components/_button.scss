@@ -9,6 +9,7 @@
   text-align: center;
   display: inline-block;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
   @media (max-width: 991px)
   {
     padding: 10px 20px;

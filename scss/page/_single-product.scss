@@ -95,6 +95,8 @@
 .social-flex {
   display: flex;
   gap: 40px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #E7E5EA;
 }
 .social-flex__border {
   border-right: 1px solid var(--text-text);
@@ -104,13 +106,8 @@
   gap: 20px;
 }
 
-.product-right__social {
-  padding-bottom: 50px;
-  border-bottom: 1px solid #E7E5EA;
-}
-.product-right__catagory--blue {
-  color: var(--action-blue);
-}
+
+
 .product-right__tag {
   padding-top: 15px;
   gap: 20px;
@@ -124,11 +121,14 @@
   font-weight: 500;
   letter-spacing: 0.4px;
 }
-.product-right__catagory {
+.product-right__category {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.4px;
   color: var(--text-heading);
+  span {
+    color: var(--action-blue);
+  }
 }
 .product-tag__item {
   color: var(--text-heading);

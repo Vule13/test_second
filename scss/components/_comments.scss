@@ -10,7 +10,15 @@
   letter-spacing: 0.4px;
   color: var(--text-heading);
 }
-.comments-title {
+.blog-box__comment {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.55; /* 155.556% */
+  letter-spacing: 0.4px;
+  color: var(--text-heading);
+
+}
+.blog-comments__title {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.55; /* 155.556% */
@@ -24,17 +32,18 @@
 .comments-title--bd {
   border-bottom: 1px solid rgba(97, 119, 152, 0.20) ;
 }
-.comments-first {
+.comments__first {
  padding-top: 20px;
  padding-bottom: 20px;
  font-family: "DM Sans";
+ align-items: start;
+ gap: 30px;
+ display: flex;
 }
-.comments-first--bd {
+.comments__first--bd {
   border-bottom: 1px solid rgba(97, 119, 152, 0.20) ;
 }
-.comments-first__img {
-  position: absolute;
-}
+
 .comments-inf {
   justify-content: space-between;
 
@@ -62,7 +71,4 @@
   color: var(--action-blue);
   align-items: center;
   padding-left: 10px;
-}
-.comments-pd {
-  padding-left: 100px;
 }

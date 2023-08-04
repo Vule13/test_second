@@ -33,22 +33,22 @@
           </div>
           <div class="header-right d-flex">
             <ul class="header-right__list">
-              <li class="header-right__items">
+              <li >
                   <a href="index.html" class="header-right__link ">Home</a>
               </li>
-              <li class="header-right__items ">
+              <li >
                   <a href="page_porfolio.html" class="header-right__link ">services</a>
               </li>
-              <li class="header-right__items">
+              <li >
                   <a href="#" class="header-right__link ">about</a>
               </li>
-              <li class="header-right__items ">
+              <li >
                 <a href="page_shop.html" class="header-right__link  ">Page</a>
             </li>
-              <li class="header-right__items header-right__items--blog ">
+              <li class="header-right__items ">
                   <a href="page_blog_v1.html" class="header-right__link header-right__link--blog ">Blog</a>
               </li>
-              <li class="header-right__items">
+              <li >
                 <a href="#" class="header-right__link ">contact</a>
             </li>
               
@@ -87,20 +87,20 @@
   <section class="page-section pt-100 pb-100">
     <div class="container">
       <div class="blog d-flex">
-        <div class="blog-main">
+        <div class="blog__main">
           <div class="blog-box blog-box--bd pb-50">
             <div class="blog-box__img">
               <img src="./images/Vietnam Fintech.png" alt="">
             </div>
-            <div class="blog-text blog-box__content--pd ">
-              <div class="header-content d-flex">
-                <div class="header-content__left d-flex">
+            <div class="blog-text  ">
+              <div class="blog-text__header d-flex">
+                <div class="blog-text__left d-flex">
                   <img  src="./images/author1.png" alt="tác giả">
-                  <div class="header-content__author-name">
+                  <div class="blog-text__author-name">
                     Written By Admin
                   </div>
                 </div>
-                <div class="header-content__right">10 July, 2022</div>
+                <div class="blog-text__right">10 July, 2022</div>
               </div>
               <h2 class="blog-text__title">Vietnamese Fintech Startup Raises $25 M Series B Round From Ospace, Vietnam Investments Group</h2>
               <div class="blog-text__content blog-text__content--color ">Vietnamese fintech startup Finhay has raised a $25 million Series B round led by Singapore-based Openspace Ventures, an early backer of Indonesia's GoTo Group and 30 Under 30 Asia honoree Rexy Josh Dorado's Manila-based social media site Kumu, and private firm Vietnam Investments Group.</div>
@@ -155,18 +155,18 @@
             
           </div>
           <div class="blog-box blog-box--bg">
-            <p class="comments-title pb-30 ">Related Articles</p>
+            <p class="blog-box__comment pb-30 ">Related Articles</p>
             <div class="blog-related d-flex">
               <a href="" class="blog-related__content d-flex ">
-                <img src="./images/related1.png" alt="" class="blog-related__img">
+                <img src="./images/related1.png" alt="" >
                 <div class="blog-related__item">Start Your First Week Of A New Job Like A Boss</div>
               </a>
               <a href="" class="blog-related__content d-flex ">
-                <img src="./images/related2.png" alt="" class="blog-related__img">
+                <img src="./images/related2.png" alt="" >
                 <div class="blog-related__item">Pioneering A New Twist On Coworking Models</div>
               </a>
               <a href="#" class="blog-related__content d-flex">
-                <img src="./images/related3.png" alt="" class="blog-related__img">
+                <img src="./images/related3.png" alt="" >
                 <div class="blog-related__item">The White-Label Software Model In Fintech</div>
               </a>
             </div>
@@ -174,8 +174,8 @@
           <div class="blog-comments ">
             <div class="comments">
               <p class="comments__title comments__title--bd pb-30 pt-40">Comments</p>
-              <div class="comments-first comments-first--bd ">
-                <img src="./images/Ellipse 10.png" alt="comments" class="comments-first__img">
+              <div class="comments__first comments__first--bd ">
+                <img src="./images/Ellipse 10.png" alt="comments" >
                 <div class="comments-pd">
                   <div class="comments-inf d-flex">
                     <div class="comments-inf__name">Martha Smith</div>
@@ -191,8 +191,8 @@
                 </div>
                 
               </div>
-              <div class="comments-first comments-first--bd ">
-                <img src="./images/Ellipse 5.png" alt="comments" class="comments-first__img">
+              <div class="comments__first comments__first--bd ">
+                <img src="./images/Ellipse 5.png" alt="comments" >
                 <div class="comments-pd">
                   <div class="comments-inf d-flex">
                     <div class="comments-inf__name">Ernest Smith</div>
@@ -205,8 +205,8 @@
                     </svg>
                     <p class="comments-pd__item">reply</p>
                   </div>
-                  <div class="comments-first  pl-20 ">
-                    <img src="./images/Ellipse 18.png" alt="comments" class="comments-first__img">
+                  <div class="comments__first  pl-20 ">
+                    <img src="./images/Ellipse 18.png" alt="comments" >
                     <div class="comments-pd">
                       <div class="comments-inf d-flex">
                         <div class="comments-inf__name">Vincent Smith</div>
@@ -226,17 +226,16 @@
                 
               </div>
             </div>
-            <div class="write-comments pb-30">
-              <p class="comments-title pb-30 pt-40">Write a Comment</p>
+            <form action="" class="blog-comments__write">
+              <p class="blog-comments__title pb-30 pt-40">Write a Comment</p>
               <div class="write-input d-flex ">
                 <input type="text" class="write-input__item" placeholder="Name">
                 <input type="text" class="write-input__item" placeholder="Email">
                 <input type="text" class="write-input__item" placeholder="Website">
               </div>
-              <textarea  class="write-comments__enter" placeholder="Enter email"></textarea>
-              
-            </div>
-            <a href="#" class=" button button--blue button--blue-bt ">Submit</a>
+              <textarea  class="blog-comments__enter" placeholder="Enter email"></textarea>
+              <a href="#" class=" button button--blue button--blue-bt ">Submit</a>
+            </form>
           </div>
         </div>
         <div class="sidebar">
@@ -250,15 +249,15 @@
           <div class="sidebar-box">
             <div class="sidebar-box__title">Latest News</div>
             <a href="#" class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news1.png" alt="news-img">
+              <img src="./images/news1.png" alt="news-img">
               <p>Start Your First Week Of A New Job Like A Boss</p>
             </a>
             <a href="#" class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news2.png" alt="news-img">
+              <img src="./images/news2.png" alt="news-img">
               <p>Pioneering A New Twist On Coworking Models</p>
             </a>
             <a href="#" class="sidebar-box__content sidebar-box__content--gap d-flex">
-              <img class="news-img" src="./images/news3.png" alt="news-img">
+              <img src="./images/news3.png" alt="news-img">
               <p>The White-Label Software Model In Fintech</p>
             </a>
           </div>
@@ -319,7 +318,7 @@
             Visit our blog! Follow the developments in the technology & entrepreneur world
           </div>
           <h2 class="subcribe__title">
-            Subscribe to our newsletter <span class="text-green">free</span> and stay updated on the latest developments!
+            Subscribe to our newsletter <span>free</span> and stay updated on the latest developments!
           </h2>
           <div class="subcrible__btn pt-70 d-flex">
             <input class=" input subcribe__input" type="text" placeholder="Enter email">

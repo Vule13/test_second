@@ -8,7 +8,7 @@
   transition: 0.3s;
   position: fixed;
 }
-.icon-btn__bag {
+.icon-btn__bag{
   position: relative;
   &::before {
     content: "";
@@ -96,7 +96,7 @@
     color: var(--text-heading);
   }
 }
-.header-right__items--blog {
+.header-right__items {
   position: relative;
   &::before {
     content: "";

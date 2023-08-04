@@ -24,7 +24,7 @@
   font-weight: 500;
   letter-spacing: -0.3px;
   color: var(--text-heading);
-  padding: 15px 20px 0 0;
+  margin-right: 20px;
 }
 .banner-center_text-blog {
   text-transform: uppercase;
@@ -33,6 +33,7 @@
   font-weight: 500;
   letter-spacing: -0.3px;
   position: relative;
+  margin-left: 20px;
   &::before {
     content: "";
     width: 1px;
@@ -40,7 +41,7 @@
     bottom: 3px;
     position: absolute;
     background-color: #7B88A8;
-    left: -32%;
+    left: -20px;
     transform: rotateZ(18deg);
 
     

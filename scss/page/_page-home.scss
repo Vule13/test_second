@@ -178,14 +178,14 @@
   font-family: DM Sans;
   font-size: 16px;
 }
-.technologies-content {
+.technologies__content {
   text-align: center;
   font-size: 22px;
   line-height: 1.45; /* 145.455% */
   letter-spacing: -1px;
   padding-bottom: 90px;
 }
-.technologies {
+.technologies__img {
   gap: 100px;
   align-items: center;
   justify-content: center;
@@ -328,14 +328,6 @@
   position: relative;
 }
 
-// .digital-grid {
-//   display: grid;
-//   grid-template-columns:  1fr 2fr ;
-//   grid-template-rows: 1fr;
-//   grid-gap: 10px;
-//   padding: 10px;
-  
-// }
 .digital-grid {
   padding: 0 100px;
   @media (max-width: 1200px) {
@@ -382,7 +374,7 @@
  }
 }
 
-.item-grid {
+.experience{
   display: flex;
   flex-direction: column;
   justify-content: center;
