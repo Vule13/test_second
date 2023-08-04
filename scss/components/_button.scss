@@ -43,6 +43,13 @@
     flex-direction: column;
   }
 }
+.button-form {
+  justify-content: center;
+  gap: 6px;
+  @media (max-width:768px) {
+    flex-direction: column;
+  }
+}
 @media (max-width: 991px){
   .icon-btn {
     flex-direction: column;

@@ -1,18 +1,18 @@
 
-.bg-light {
+.team-box {
   background-color: var(--bgbg-light);
   border-radius: 20px;
   text-align: center;
   padding-bottom: 30px;
 }
-.team-name {
+.team-box__name {
   font-size: 22px;
   line-height: 1.5; /* 145.455% */
   letter-spacing: -1px;
   color: var(--text-heading);
   padding-top: 25px;
 }
-.team-function {
+.team-box__function {
   font-family: DM Sans;
   font-size: 16px;
   opacity: 0.8;

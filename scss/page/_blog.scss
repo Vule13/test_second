@@ -17,7 +17,12 @@
     min-width:unset;
   }
 }
-
+.blog-social__tag {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  
+}
 .blog-text__title {
   padding-bottom: 15px;
   padding-top: 20px;

@@ -10,6 +10,21 @@
     width: unset;
   }
 }
+.button-form__input--bg {
+  background-color: #E7E5EA;
+  @media (max-width:1199px) {
+    width: 60%;
+  }
+  @media (max-width:991px) {
+    width: unset;
+  }
+}
+.button-form__input {
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid var(--lines-gray-line, #E7E5EA);
+  font-family: "DM sans";
+}
 .subcribe__input {
   border-radius: 5px;
   font-size: 16px;
