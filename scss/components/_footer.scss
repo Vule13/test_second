@@ -1,5 +1,6 @@
 .page-footer {
   background-color: var(--bgbg-gray);
+  padding-top: 70px;
 }
 .footer-logo__icon {
   gap: 10px;
@@ -58,15 +59,11 @@
   padding: 27px 0;
   align-items: center;
 }
-.subcribe__content {
-  font-size: 22px;
-  letter-spacing: -1px;
- 
-}
+
 .footer-bottom__icon {
   gap: 20px;
 }
 .row--border {
   border-bottom: 1px solid var(--text-text);
-  
+  padding-bottom: 100px;
 }

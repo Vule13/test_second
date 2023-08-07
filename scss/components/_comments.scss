@@ -9,6 +9,8 @@
   line-height: 1.55; /* 155.556% */
   letter-spacing: 0.4px;
   color: var(--text-heading);
+  padding-bottom: 30px;
+  padding-top: 40px;
 }
 .blog-box__comment {
   font-size: 18px;
@@ -16,7 +18,7 @@
   line-height: 1.55; /* 155.556% */
   letter-spacing: 0.4px;
   color: var(--text-heading);
-
+  padding-bottom: 30px;
 }
 .blog-comments__title {
   font-size: 18px;
@@ -24,6 +26,8 @@
   line-height: 1.55; /* 155.556% */
   letter-spacing: 0.4px;
   color: var(--text-heading);
+  padding-bottom: 30px;
+  padding-top: 40px;
 
 }
 .comments__title--bd {
@@ -35,6 +39,7 @@
 .comments__first {
  padding-top: 20px;
  padding-bottom: 20px;
+ padding-left: 20px;
  font-family: "DM Sans";
  align-items: start;
  gap: 30px;
@@ -71,4 +76,5 @@
   color: var(--action-blue);
   align-items: center;
   padding-left: 10px;
+  padding-top: 40px;
 }

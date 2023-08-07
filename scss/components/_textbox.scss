@@ -37,7 +37,7 @@
   font-size: 22px;
   line-height: 1.45; /* 145.455% */
   letter-spacing: -1px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .pos-re {
   position: relative;
@@ -55,3 +55,29 @@
   left: 0;
   margin: 0 auto;
 }
+
+.subcribe-bg {
+  background-size: 100% 100%;
+  background-image: url("../images/BG footer.png");
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.subcribe {
+  text-align: center;
+  width: 100%;
+  max-width: 870px;
+  margin: 0 auto
+}
+.subcribe__title {
+  line-height: 1.16;
+  letter-spacing: -2px;
+  padding: 15px 0;
+  font-size: 48px;
+  span {
+    color: var(--action-green);
+  }
+}
+.subcribe__content {
+  padding: 15px 0;
+}
+

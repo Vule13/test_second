@@ -41,11 +41,16 @@
 .product-right__text {
   font-size: 16px;
   width: 100%;
+  padding-top: 30px;
 }
 .product-content__text {
   font-size: 16px;
   width: 100%;
+  padding-top: 15px;
   font-family: "DM Sans";
+}
+.product-box {
+  padding-top: 100px;
 }
 .product-right__text-color {
   color: var(--text-heading);
@@ -161,6 +166,8 @@
   gap: 40px;
   justify-content: center;
   border-bottom: 1px solid #E7E5EA;
+  padding-top: 100px;
+  padding-bottom: 30px;
 }
 .product-tag__item--blue {
   position: relative;
@@ -193,6 +200,7 @@
 .product-content {
   gap: 30px;
   padding-bottom: 30px;
+  padding-top: 30px;
   border-bottom: 1px solid #E7E5EA;
 }
 .product-box__title {
@@ -204,4 +212,7 @@
 }
 .subcribe__content {
   font-size: 22px;
+}
+.product-right__star {
+  padding-bottom: 15px;
 }
