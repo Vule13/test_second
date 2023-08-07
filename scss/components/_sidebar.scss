@@ -29,6 +29,7 @@
   line-height: 1.7;
   letter-spacing: -0.3px;
   align-items: start;
+  
 }
 
 .sidebar-box__content i {
@@ -44,6 +45,11 @@
   font-family: "DM Sans";
   &:nth-last-child(1){
     padding-bottom: 0;
+  }
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: var(--text-heading);
+    scale: 1.1;
   }
 }
 .sidebar-box__img {

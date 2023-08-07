@@ -25,6 +25,10 @@
   letter-spacing: -0.3px;
   color: var(--text-heading);
   margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    color: var(--text-text);
+  }
 }
 .banner-center_text-blog {
   text-transform: uppercase;
