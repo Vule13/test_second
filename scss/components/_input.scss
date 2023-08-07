@@ -1,5 +1,8 @@
 .input {
   padding: 11px 18px;
+  @media (max-width: 991px) {
+    padding: 9px 18px;
+  }
 }
 .subcribe__input--bg {
   background-color: #E7E5EA;

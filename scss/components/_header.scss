@@ -27,7 +27,7 @@
   }
   ul.show {
       left: 0;
-      top: 60px;
+      top: 0;
       z-index: -1;
       
   }
@@ -108,6 +108,12 @@
     left: 50%;
     top: -20%;
     transform: translate(-50%, -50%);
+  }
+  @media (max-width:991px) {
+    &::before {
+      background-color: #fff;
+      display: none;
+    }
   }
 }
 .header-taskbar {
