@@ -1972,6 +1972,10 @@ img {
   gap: 20px;
   min-height: 100%;
   flex-direction: column;
+  transition: all 0.5s ease-in-out;
+}
+.blog-related__content:hover {
+  scale: 1.1;
 }
 
 .blog-related__item {
@@ -2312,7 +2316,7 @@ img {
   top: 0;
   right: 0;
   width: 44%;
-  background-image: url(../images/design.png);
+  background-image: url(../images/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -2321,6 +2325,10 @@ img {
   .background {
     display: none;
   }
+}
+
+.team-box__img {
+  border-radius: 25px;
 }
 
 .home-brand {
@@ -2836,6 +2844,7 @@ img .experience:first-child {
   padding-top: 30px;
   margin: 0 auto;
   margin-bottom: 10px;
+  border-radius: 20px;
   transition: all 0.3s ease;
   overflow: hidden;
   display: inline-block;
