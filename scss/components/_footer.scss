@@ -1,6 +1,9 @@
 .page-footer {
   background-color: var(--bgbg-gray);
   padding-top: 70px;
+  @media (max-width: 767px) {
+    padding-top: 50px;
+  }
 }
 .footer-logo__icon {
   gap: 10px;
@@ -14,6 +17,9 @@
   line-height: 1.45;
   letter-spacing: -1px;
   padding-bottom: 10px;
+  @media (max-width: 576px) {
+    font-size: 16px;
+  }
 }
 .footer-box {
   display: flex;
@@ -28,6 +34,9 @@
   text-transform: uppercase;
   color: #E7E5EA;
   padding-top: 10px;
+  @media (max-width: 576px) {
+    font-size: 10px;
+  }
 }
 .footer-newsletter__content {
   font-family: "DM Sans";
@@ -36,6 +45,9 @@
   color: #E7E5EA;
   line-height: 1.62; /* 162.5% */
   padding-bottom: 25px;
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
 }
 
 .button-form--fs {
@@ -48,6 +60,9 @@
   line-height: 1.45;
   letter-spacing: -1px;
   padding-bottom: 10px;
+  @media (max-width: 576px) {
+    font-size: 16px;
+  }
 }
 .footer-bottom__content {
   color: #E7E5EA;

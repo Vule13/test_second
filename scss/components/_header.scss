@@ -91,7 +91,7 @@
   color: var(--text-heading);
 }
 .header-right__link  {
-  
+  transition: all 0.3s ease-in;
   &:hover {
     color: var(--text-heading);
   }

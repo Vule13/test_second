@@ -106,6 +106,7 @@
   line-height: 1.45; /* 145.455% */
   letter-spacing: -1px;
   padding-bottom: 30px;
+  transition: all 0.3s ease;
   &:hover{
     color: var(--text-text);
   }
@@ -115,6 +116,7 @@
   font-family: DM Sans;
   font-size: 18px;
   letter-spacing: -0.3px;
+  transition: all 0.3s ease;
   padding-bottom: 25px;
   &:hover{
     opacity: 0.7;

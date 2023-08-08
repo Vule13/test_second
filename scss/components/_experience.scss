@@ -19,6 +19,7 @@
 }
 .experience__video {
   color: #886CFF;
+  transition: all 0.3s ease-in-out;
   &:hover {
     color: var(--action-green);
   }
@@ -26,6 +27,7 @@
 .experience__what {
   color: #886CFF;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
   &:hover {
     color: var(--action-green);
   }
@@ -63,9 +65,17 @@
 }
 .experience-video--white {
   color: #fff;
+  transition: all 0.2s ease;
+  &:hover {
+    color: black;
+  }
 }
 .experience-video__what--white {
   color: #fff;
+  transition: all 0.2s ease;
+  &:hover {
+    color: black;
+  }
 }
 .col-style--top {
   position: absolute;
