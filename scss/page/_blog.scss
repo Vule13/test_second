@@ -174,9 +174,9 @@
   min-height: 100%;
   flex-direction: column;
   transition: all 0.5s ease-in-out;
-  &:hover {
-    scale: 1.1;
-  }
+  
+  
+ 
 }
 .blog-related__item {
   font-size: 18px;
@@ -184,4 +184,8 @@
   letter-spacing: -0.3px;
   color: var(--text-heading);
   font-family: "DM Sans";
+  transition: all 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
 }

@@ -66,16 +66,21 @@
 .experience-video--white {
   color: #fff;
   transition: all 0.2s ease;
+  text-align: center;
   &:hover {
-    color: black;
+    .experience-video__what--white {
+      color: black;
+    }
+    i {
+      color: black;
+    }
+    
   }
 }
 .experience-video__what--white {
   color: #fff;
-  transition: all 0.2s ease;
-  &:hover {
-    color: black;
-  }
+  transition: all 0.3s ease;
+  
 }
 .col-style--top {
   position: absolute;

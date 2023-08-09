@@ -197,7 +197,7 @@
     flex-wrap: wrap;
   }
 }
-.branding--cup {
+.branding__cup {
   height: 70px;
   width: 70px;
   border-radius: 50%;
@@ -253,20 +253,33 @@
   font-size: 18px;
   letter-spacing: -0.3px;
   padding-bottom: 48px;
+  
 }
 .project-right__img {
   flex-direction: column;
   gap: 30px;
+  @media (max-width: 576px) {
+    gap: 20px;
+  }
 }
 .project-right__top {
   gap: 30px;
+  @media (max-width: 576px) {
+    gap: 20px;
+  }
 }
 .project-right {
   flex-direction: column;
   gap: 30px;
+  @media (max-width: 576px) {
+    gap: 20px;
+  }
 }
 .project-left {
   max-width: 270px;
+  @media (max-width: 991px) {
+    max-width: 100%;
+  }
 }
 .project {
   gap: 30px;
@@ -304,6 +317,9 @@
   letter-spacing: -1px;
   @media (max-width: 768px) {
     font-size: 30px;
+  }
+  @media (max-width: 576px) {
+    font-size: 26px;
   }
 }
 .graphic-design__content {
