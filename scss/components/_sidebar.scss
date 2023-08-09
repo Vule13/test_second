@@ -119,6 +119,9 @@
   font-family: outfit;
   color: #fff;
   line-height: 1.45;
+  @media (max-width: 991px) {
+    padding-bottom: 10px;
+  }
 }
 .blog-text__right {
   font-size: 14px;
