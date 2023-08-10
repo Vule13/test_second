@@ -267,6 +267,7 @@
   letter-spacing: -2px;
   padding: 15px 0;
   font-size: 48px;
+  color: var(--text-heading);
 }
 .subcribe__title span {
   color: var(--action-green);
