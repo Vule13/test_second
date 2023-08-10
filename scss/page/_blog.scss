@@ -69,6 +69,12 @@
   &:hover {
     opacity: 0.7;
   }
+  @media (max-width: 576px) {
+    font-size: 30px;
+  }
+  @media (max-width: 576px) {
+    font-size: 30px;
+  }
 }
 
 .blog-text__content {
@@ -76,11 +82,19 @@
   padding-top: 30px;
   font-family: "DM Sans";
   font-size: 16px;
+  @media (max-width: 576px) {
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 .blog-text {
   padding-top: 15px;
   font-size: 16px;
   padding: 25px 40px 40px 40px;
+  @media (max-width: 576px) {
+    padding: 15px;
+  }
 }
 .blog-box__content {
   padding: 25px 40px 40px 40px;
@@ -101,12 +115,19 @@
   background-color: var(--bgbg-light);
   padding: 30px 50px;
   border-radius: 5px;
+  @media (max-width: 576px) {
+    padding: 20px 30px;
+  }
 }
 .blog-item__size {
   font-size: 18px;
   letter-spacing: -0.3px;
   line-height: 1.55;
-  color: var(--text-heading)
+  color: var(--text-heading);
+  @media (max-width: 576px) {
+    font-size: 16px;
+  }
+  
 }
 .blog-text__content--color {
   color: var(--text-heading);
@@ -114,10 +135,14 @@
 .blog-social {
   justify-content: space-between;
   padding-top: 50px;
+  @media (max-width: 442px) {
+    flex-wrap: wrap;
+  }
 }
 .blog-text__header {
   justify-content: space-between;
   padding-bottom: 20px;
+  align-items: center;
 }
 .blog-text__left {
   gap: 10px;
@@ -127,6 +152,9 @@
 .blog-text__author-name {
   font-weight: 500;
   letter-spacing: -0.3px;
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
 }
 
 .blog-social__content {
@@ -136,6 +164,9 @@
     &:hover {
       opacity: 0.7;
     }
+  }
+  @media (max-width: 442px) {
+    padding-top: 20px;
   }
 }
 
@@ -163,10 +194,16 @@
 .blog-box--bg {
   background-color: var(--bgbg-light);
   padding: 20px 40px 50px 40px;
+  @media (max-width:576px) {
+    padding:20px;
+  }
 }
 .blog-related {
   gap: 32px;
   width: 100%;
+  @media (max-width:576px) {
+    flex-wrap: wrap;
+  }
 }
 .blog-related__content {
   width: 100%;
@@ -188,4 +225,7 @@
   &:hover {
     opacity: 0.7;
   }
+}
+.blog-comments__write {
+  padding-bottom: 10px;
 }

@@ -18,7 +18,7 @@
   letter-spacing: -1px;
   padding-bottom: 10px;
   @media (max-width: 576px) {
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 .footer-box {
@@ -67,6 +67,9 @@
 .footer-bottom__content {
   color: #E7E5EA;
   font-weight: 400;
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
 }
 
 .footer-bottom {
@@ -81,4 +84,7 @@
 .row--border {
   border-bottom: 1px solid var(--text-text);
   padding-bottom: 100px;
+  @media (max-width: 576px) {
+    padding-bottom: 50px;
+  }
 }

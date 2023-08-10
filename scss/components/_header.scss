@@ -124,6 +124,9 @@
   @media (max-width: 991px) {
     display: block;
   }
+  @media (max-width: 576px) {
+    font-size: 15px;
+  }
 }
 .sticky {
   background-color: #ffff;
@@ -136,4 +139,7 @@
 }
 .header-logo__icon {
   gap: 10px;
+  @media (max-width: 576px) {
+    width: 50%;
+  }
 }

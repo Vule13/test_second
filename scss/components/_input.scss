@@ -27,6 +27,9 @@
   font-size: 16px;
   border: 1px solid var(--lines-gray-line, #E7E5EA);
   font-family: "DM sans";
+  @media (max-width:576px) {
+    font-size: 12px;
+  }
 }
 .subcribe__input {
   border-radius: 5px;
@@ -85,4 +88,6 @@
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 30px;
+  @media(max-width: 576px){
+  margin-bottom: 10px;}
 }

@@ -28,9 +28,20 @@
 }
 .page-section--techologies {
   padding-top: 100px;
+  @media (max-width: 576px) {
+    padding-top: 50px;
+  }
 }
 .page-section--res {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.page-section--light {
+  background-color: var(--bgbg-light);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  @media (max-width: 991px) {
+    padding: 70px 0;
+  }
 }

@@ -29,7 +29,9 @@
   line-height: 1.7;
   letter-spacing: -0.3px;
   align-items: start;
-  
+  @media (max-width:576px) {
+    font-size: 16px;
+  }
 }
 
 .sidebar-box__content i {
@@ -129,6 +131,9 @@
   line-height: 1.7;
   letter-spacing: 0.4px;
   font-family: outfit;
+  @media (max-width: 576px) {
+    font-size: 12px;
+  }
 }
 
 

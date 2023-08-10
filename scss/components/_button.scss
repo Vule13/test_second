@@ -17,6 +17,11 @@
     font-weight: 400;
     line-height: 1.6;
   }
+  @media (max-width: 576px)
+  {
+    font-size: 10px;
+    padding: 10px 15px;
+  }
   &:hover {
     opacity: 0.7;
   }
@@ -24,6 +29,7 @@
 
 .button--blue {
   background-color: var(--action-blue);
+  display: inline-block;
 }
 .button--black {
   background-color: var(--bgbg-gray);

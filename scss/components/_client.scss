@@ -1,8 +1,4 @@
-.page-section--light {
-  background-color: var(--bgbg-light);
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .client-box {
   border-radius: 20px;
   background: var(--color-5, #FFF);
@@ -15,6 +11,9 @@
   min-height: 100%;
   &:hover {
     box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.20);
+  }
+  @media (max-width: 1100px) {
+    padding: 25px;
   }
 }
 .client-box__img {

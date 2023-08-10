@@ -120,6 +120,9 @@
   &:hover{
     opacity: 0.7;
   }
+  @media(max-width: 576px) {
+    font-size: 14px;
+  }
 }
 .porfolio-tip__time {
   color: var(--action-blue);
@@ -127,6 +130,9 @@
   gap: 5px;
   padding-bottom: 25px;
   border-bottom: 1px solid var(--text-text-gray);
+  @media(max-width: 576px) {
+    font-size: 14px;
+  }
 }
 .porfolio-tip__date {
   font-family: DM Sans;
@@ -135,6 +141,15 @@
   opacity: 0.7;
   color: var(--text-text);
   padding-right: 15px;
+  @media (max-width: 576px) {
+    font-size: 11px;
+  }
+}
+.resent-project__title {
+  font-size: 48px;
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
 }
 .porfolio-tip {
   margin-top: 20px;

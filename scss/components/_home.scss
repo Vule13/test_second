@@ -11,6 +11,9 @@
   line-height: 1.16;
   letter-spacing: -2px;
   padding: 15px 0;
+  @media (max-width: 576px) {
+    font-size: 40px;
+  }
 }
 .banner-flex {
   justify-content: center;
@@ -28,6 +31,9 @@
   transition: all 0.3s ease-in-out;
   &:hover {
     color: var(--text-text);
+  }
+  @media (max-width: 576px) {
+    font-size: 14px;
   }
 }
 .banner-center_text-blog {
@@ -49,5 +55,8 @@
     transform: rotateZ(18deg);
 
     
+  }
+  @media (max-width: 576px) {
+    font-size: 14px;
   }
 }

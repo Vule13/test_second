@@ -54,4 +54,10 @@
   }
  
 }
+@media (max-width: 576px) {
+  .col {
+    width: calc(var(--col-md) / var(--grid) * 100%);
+  }
+ 
+}
 
