@@ -1054,6 +1054,7 @@ input[type=radio]:checked {
     top: 0;
     z-index: -1;
     display: block;
+    overflow-y: scroll;
   }
   .btn.show {
     left: 0;
